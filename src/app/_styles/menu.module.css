@@ -1,0 +1,50 @@
+.navContainer {
+    position: relative;
+}
+
+.menuTrigger {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    padding: 20px 40px;
+    font-size: 18px;
+}
+.menuTrigger li {
+    width: 180px;
+    text-align: center;
+}
+
+.megaMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    padding: 30px 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    z-index: 99;
+    font-size: 16px;
+}
+
+.navContainer:hover .megaMenu {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 180px;
+    text-align: center;
+}
+
+.column a {
+    text-decoration: none;
+    color: #666;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.column a:hover {
+    color: #00a0e9;
+}

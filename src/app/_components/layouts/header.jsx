@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import React from 'react';
 import { Layout, Flex } from 'antd';
@@ -10,16 +10,15 @@ import styles from '@/app/_styles/MainHeader.module.css';
 
 const { Header } = Layout;
 
-
 export default function MainHeader() {
-    return (
-        <>
-            <Header className={styles.header}>
-                <Flex justify="space-between" align='center' style={{ width: "100%" }}>
-                    <Image src={LogoBlue} alt='logo' width={187} />
-                    <Menu />
-                </Flex>
-            </Header>   
-        </>
-    );
+  return (
+    <>
+      <Header className={styles.header}>
+        <Flex justify="space-between" align="center" style={{ width: '100%' }}>
+          <Image src={LogoBlue} alt="logo" width={187} />
+          <Menu />
+        </Flex>
+      </Header>
+    </>
+  );
 }
