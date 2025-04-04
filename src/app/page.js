@@ -1,18 +1,10 @@
 "use client";
-import { Layout } from 'antd';
-import MainHeader from './_components/layouts/header';
 
-import { Content } from 'antd/es/layout/layout';
-import MainFooter from './_components/layouts/footer';
-
-export default function Home({Children}) {
+export default function HomePage() {
   return (
-  <Layout>
-    <MainHeader />
-    <Content>
-      {Children}
-    </Content>
-    <MainFooter/>
-  </Layout>
+    <div>
+      <h1>메인 페이지입니다!</h1>
+      <p>여기 콘텐츠가 들어가요.</p>
+  </div>
 );
 }

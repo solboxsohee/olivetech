@@ -6,7 +6,7 @@ import Image from 'next/image';
 import LogoBlue from '$/logo/logo_blue.svg';
 import Menu from '@/app/_components/layouts/menu.jsx';
 
-import '@/app/_styles/header.css';
+import styles from '@/app/_styles/MainHeader.module.css';
 
 const { Header } = Layout;
 
@@ -14,7 +14,7 @@ const { Header } = Layout;
 export default function MainHeader() {
     return (
         <>
-            <Header className='header_style'>
+            <Header className={styles.header}>
                 <Flex justify="space-between" align='center' style={{ width: "100%" }}>
                     <Image src={LogoBlue} alt='logo' width={187} />
                     <Menu />
@@ -23,4 +23,3 @@ export default function MainHeader() {
         </>
     );
 }
-

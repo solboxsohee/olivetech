@@ -3,7 +3,8 @@ import React from 'react';
 import {Flex} from 'antd';
 import Image from 'next/image';
 import LogoBlue from '$/logo/logo_blue.svg';
-import '@/app/_styles/footer.css'
+import '@/app/_styles/footer.css';
+import Link from 'next/link';
 
 
 export default function MainFooter() {
@@ -19,7 +20,7 @@ export default function MainFooter() {
                         <p>E. sales@olivetech.co.kr</p>
                     </Flex>
                 </Flex>
-                <p><b>개인정보처리방침</b></p>
+                <Link href="/privacy"><p><b>개인정보처리방침</b></p></Link>
                 <p>ⓒOlivetech Inc. All right reserved.</p>
             </Flex>
         </footer>

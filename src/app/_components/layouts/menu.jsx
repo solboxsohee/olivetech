@@ -1,37 +1,41 @@
 import React from 'react';
 
+import Link from 'next/link';
+import styles from '@/app/_styles/MainHeader.module.css';
+
 export default function Menu() {
     return (
-        <ul className='menu_style'>
-            <li>솔루션
-                <ul className='sec_menu'>
-                    <li>WORM 스토리지</li>
-                    <li>보안저장소(PDS)</li>
-                </ul>
-            </li>
-            <li>고객 사례
-                <ul className='sec_menu'>
-                    <li>고객사</li>
-                    <li>적용 사례</li>
-                </ul>
-            </li> 
-            <li>고객 지원
-                <ul className='sec_menu'>
-                    <li>소개 자료</li>
-                    <li>기술 자료</li>
-                    <li>S/W 다운로드</li>
-                    <li>FAQ</li>
-                </ul>
-            </li>
-            <li>올리브텍 소개
-                <ul className='sec_menu'>
-                    <li>소개</li>
-                    <li>연혁</li>
-                    <li>뉴스</li>
-                    <li>오시는 길</li>
-                </ul>
-            </li>
-        </ul>
+        <nav className={styles.navContainer}>
+            <ul className={styles.menuStyle}>
+                <li>솔루션</li>
+                <li>고객 사례</li>
+                <li>고객 지원</li>
+                <li>올리브텍 소개</li>
+            </ul>
+
+            <div className={styles.megaMenu}>
+                <div className={styles.menuColumn}>
+                    <Link href="/solution/worm">WORM 스토리지</Link>
+                    <Link href="/solution/pds">보안저장소(PDS)</Link>
+                </div>
+                <div className={styles.menuColumn}>
+                    <Link href="/cases/client">고객사</Link>
+                    <Link href="/cases/example">적용 사례</Link>
+                </div>
+                <div className={styles.menuColumn}>
+                    <Link href="/support/intro">소개 자료</Link>
+                    <Link href="/support/tech">기술 자료</Link>
+                    <Link href="/support/download">S/W 다운로드</Link>
+                    <Link href="/support/faq">FAQ</Link>
+                </div>
+                <div className={styles.menuColumn}>
+                    <Link href="/company/about">소개</Link>
+                    <Link href="/company/history">연혁</Link>
+                    <Link href="/company/news">뉴스</Link>
+                    <Link href="/company/location">오시는 길</Link>
+                </div>
+            </div>
+        </nav>
     );
 }
 
