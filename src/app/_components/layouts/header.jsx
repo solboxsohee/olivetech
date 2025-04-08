@@ -5,20 +5,22 @@ import { Layout, Flex } from 'antd';
 import Image from 'next/image';
 import LogoBlue from '$/logo/logo_blue.svg';
 import Menu from '@/app/_components/layouts/menu.jsx';
-
 import styles from '@/app/_styles/MainHeader.module.css';
+import Link from 'next/link';
 
 const { Header } = Layout;
 
 export default function MainHeader() {
-  return (
-    <>
-      <Header className={styles.header}>
-        <Flex justify="space-between" align="center" style={{ width: '100%' }}>
-          <Image src={LogoBlue} alt="logo" width={187} />
-          <Menu />
-        </Flex>
-      </Header>
-    </>
-  );
+    return (
+        <>
+            <Header className={styles.header}>
+                <Flex justify="space-between" align="center" style={{ width: '100%' }}>
+                    <Link href="/">
+                        <Image src={LogoBlue} alt="logo" width={187} />
+                    </Link>
+                    <Menu />
+                </Flex>
+            </Header>
+        </>
+    );
 }

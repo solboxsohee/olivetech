@@ -1,8 +1,8 @@
-.footer_style{
+.footer_style {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 60px 0;
+    background-color: #f8f8fa;
 }
-

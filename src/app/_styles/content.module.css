@@ -1,0 +1,45 @@
+.contentTitle {
+    width: 25%;
+}
+.contentParagraph {
+    width: 75%;
+}
+.contentParagraph p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.contentParagraph li {
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.infoTable {
+    width: 100%;
+    border-top: 3px solid #231815;
+}
+.infoTable td {
+    padding: 25px 0;
+    font-size: 18px;
+}
+.infoTable td {
+    border-bottom: 1px solid #d7d7d7;
+}
+.tableTitle {
+    width: 13%;
+}
+.tableContents {
+    width: 37%;
+}
+.subContent {
+    margin: 120px 0;
+}
+.halfFlex {
+    width: 50%;
+}
+
+.contentDivide {
+    margin: 60px 0;
+}
+.blue {
+    color: #00a0e9;
+}

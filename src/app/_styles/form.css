@@ -1,0 +1,21 @@
+.formBox {
+    margin-top: 60px;
+}
+.infoBox {
+    padding: 30px;
+    line-height: 1.5;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #d7d7d7;
+    margin-bottom: 10px;
+}
+
+/* form 아스트로 뒤로 */
+.ant-form-item
+    .ant-form-item-label
+    > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    order: 2 !important;
+}
+.ant-form-item .ant-form-item-label > label::after {
+    margin-inline-end: 0 !important;
+}
