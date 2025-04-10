@@ -37,7 +37,7 @@ export default function Location() {
                     </Flex>
                 </article>
                 <article className={styles.contentDivide}>
-                    <Flex>
+                    <Flex className={styles.smDivide}>
                         <h3 className={styles.contentTitle}>
                             <b>버스를 이용하는 경우</b>
                         </h3>
@@ -46,7 +46,7 @@ export default function Location() {
                             광역버스 : 3100
                         </p>
                     </Flex>
-                    <Flex>
+                    <Flex className={styles.smDivide}>
                         <h3 className={styles.contentTitle}>
                             <b>지하철을 이용하는 경우</b>
                         </h3>
@@ -56,7 +56,7 @@ export default function Location() {
                             분당선 : 야탑역 이용
                         </p>
                     </Flex>
-                    <Flex>
+                    <Flex className={styles.smDivide}>
                         <h3 className={styles.contentTitle}>
                             <b>자가용을 이용하는 경우</b>
                         </h3>

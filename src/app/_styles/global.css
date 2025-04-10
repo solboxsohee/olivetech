@@ -36,7 +36,8 @@ table {
     min-height: 100vh;
 }
 .main-content {
-    width: 1200px !important;
+    width: 88%;
+    max-width: 1200px;
     margin: 60px auto;
 }
 .main-content h2 {

@@ -1,0 +1,47 @@
+.cardNews {
+    width: 48.5%;
+    height: auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.imgWrap {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+/* 카드 호버 시 효과 */
+.imgWrap::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); /* 기본값은 투명 */
+    transition: 0.5s ease;
+    z-index: 1;
+}
+
+.cardNews:hover .imgWrap::before {
+    background: rgba(0, 0, 0, 0.3); /* hover 시 어두워짐 */
+}
+/* hover 시 이미지 확대 */
+.cardNews:hover .cardImg {
+    transform: scale(1.04);
+    transition: 0.5s ease;
+}
+.cardHead {
+    font-size: 24px;
+    font-weight: 550;
+    margin-top: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.cardDate {
+    font-size: 16px;
+    color: #777;
+    margin-top: 5px;
+}
