@@ -1,7 +1,7 @@
 .cardNews {
     width: 48.5%;
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     cursor: pointer;
 }
 .imgWrap {
@@ -35,10 +35,11 @@
 .cardHead {
     font-size: 24px;
     font-weight: 550;
-    margin-top: 10px;
+    margin-top: 15px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    color: #333;
 }
 .cardDate {
     font-size: 16px;

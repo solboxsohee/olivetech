@@ -1,0 +1,65 @@
+/* 고객 사례 */
+.viewSummary {
+    padding: 30px 60px;
+    background: #f8f8fa;
+    border-radius: 4px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.viewTable td {
+    padding: 8px 0;
+    font-size: 16px;
+}
+.viewTable td:first-child {
+    width: 100px;
+}
+.companyName {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+}
+.viewArticle h1 {
+    font-size: 32px;
+    margin-bottom: 45px;
+}
+.viewArticle h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.viewArticle p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.viewArticle li {
+    list-style: none;
+    font-size: 18px;
+    color: #474747;
+    line-height: 1.5;
+}
+.viewArticle li::before {
+    content: '· ';
+}
+
+/* 뉴스 css */
+.viewNews h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.date {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 45px;
+}
+.viewNews p {
+    font-size: 18px;
+}
+.imgWrap {
+    max-width: 940px;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 30px;
+}
