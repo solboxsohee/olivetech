@@ -4,7 +4,7 @@ import Image from 'next/image';
 import styles from '@/app/_styles/card.module.css';
 import Link from 'next/link';
 
-export default function CardNews({ cardLink, imgSrc, cardHead, cardDate }) {
+export default function cardNews({ cardLink, imgSrc, cardHead, cardDate }) {
     return (
         <Link href={cardLink} className={styles.cardNews}>
             <div className={styles.imgWrap}>

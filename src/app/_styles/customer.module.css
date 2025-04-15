@@ -1,0 +1,23 @@
+.logoCategory {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.logoHead {
+    width: 18%;
+    font-size: 28px;
+}
+.logoWrap {
+    width: 81%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.logoBox {
+    position: relative;
+    width: 230;
+    height: 115;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}

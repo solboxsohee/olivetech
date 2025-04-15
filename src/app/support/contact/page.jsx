@@ -21,7 +21,7 @@ export default function ContactForm() {
                     남겨주세요
                 </h2>
                 <Form
-                    labelCol={{ flex: '180px' }}
+                    labelCol={{ flex: '200px' }}
                     labelAlign="left"
                     labelWrap
                     wrapperCol={{ flex: 1 }}

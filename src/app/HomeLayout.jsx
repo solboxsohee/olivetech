@@ -8,7 +8,7 @@ const configProviderTheme = {
     token: {
         colorPrimary: '#00A0E9',
         controlHeight: 47,
-        borderRadius: 4,
+        borderRadius: 6,
     },
     components: {
         Button: {
