@@ -3,8 +3,14 @@ import React from 'react';
 import PageTitle from '@/app/_components/pageLayout/pageTitle';
 import { Flex } from 'antd';
 import CardNews from '@/app/_components/cards/cardNews';
+import SecondMenu from '@/app/_components/layouts/secondMenu';
 
 export default function Example() {
+    const secondMenuLinks = [
+        { href: '/cases/client', name: 'WORM 스토리지' },
+        { href: '/cases/pdsClient', name: 'SecuPDS' },
+        { href: '/cases/example', name: '적용 사례' },
+    ];
     return (
         <>
             <PageTitle
@@ -12,6 +18,7 @@ export default function Example() {
                 MainTitle={'올리브텍의 기술로'}
                 MainBoldTitle={'솔루션을 제시합니다.'}
             />
+            <SecondMenu menuName={'고객 사례'} links={secondMenuLinks} />
             <main className="main-content">
                 <Flex justify="space-between" wrap>
                     <CardNews

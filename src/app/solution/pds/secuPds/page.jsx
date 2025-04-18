@@ -1,9 +1,24 @@
 import React from 'react';
 import styles from '@/app/_styles/solutions.module.css';
+import PageTitle from '@/app/_components/pageLayout/pageTitle';
+import PageImg from '@/app/_components/pageLayout/pageImg';
+import SecondMenu from '@/app/_components/layouts/secondMenu';
 
 export default function SecuPDS() {
+    const secondMenuLinks = [
+        { href: '/solution/pds', name: '공공 마이데이터 및 PDS' },
+        { href: '/solution/pds/secuPds', name: 'SecuPDS' },
+        { href: '/solution/pds/govMarket', name: '조달등록제품' },
+    ];
     return (
         <>
+            <PageTitle
+                BlueTitle={'Solutions'}
+                MainTitle={'공공 마이데이터 솔루션으로'}
+                MainBoldTitle={'안전한 데이터 연계와 혁신을 지원합니다.'}
+            />
+            <SecondMenu menuName={'보안저장소(PDS)'} links={secondMenuLinks} border={false} />
+            <PageImg imgSrc={'aboutImg'} />
             <main className="main-content">
                 <section className={styles.solLayout}>
                     <h1 className={styles.solTitle}>SecuPDS v1.0</h1>

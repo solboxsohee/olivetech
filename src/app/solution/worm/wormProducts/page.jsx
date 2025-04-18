@@ -1,9 +1,24 @@
 import React from 'react';
 import styles from '@/app/_styles/solutions.module.css';
+import PageTitle from '@/app/_components/pageLayout/pageTitle';
+import PageImg from '@/app/_components/pageLayout/pageImg';
+import SecondMenu from '@/app/_components/layouts/secondMenu';
 
 export default function WormProducts() {
+    const secondMenuLinks = [
+        { href: '/solution/worm', name: '개요 및 핵심기술' },
+        { href: '/solution/worm/wormProducts', name: '제품 및 솔루션' },
+        { href: '/solution/worm/govMarket', name: '조달등록제품' },
+    ];
     return (
         <>
+            <PageTitle
+                BlueTitle={'Solutions'}
+                MainTitle={'고성능 보안 네트워크 스토리지'}
+                MainBoldTitle={'데이터 원본을 안전하게 보호합니다.'}
+            />
+            <SecondMenu menuName={'WORM 스토리지'} links={secondMenuLinks} border={false} />
+            <PageImg imgSrc={'aboutImg'} />
             <main className="main-content">
                 <section className={styles.solLayout}>
                     <h1 className={styles.solTitle}>

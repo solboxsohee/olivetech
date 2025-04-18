@@ -18,6 +18,7 @@
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 b {
     font-weight: 600;
@@ -61,4 +62,31 @@ table {
 }
 .page-MainTitle b {
     font-weight: 700;
+}
+
+.second-menu-box {
+    width: 100%;
+    padding: 20px;
+}
+.second-menu-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-menu {
+    font-size: 22px;
+}
+.second-small-menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    gap: 60px;
+}
+
+.tabmenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

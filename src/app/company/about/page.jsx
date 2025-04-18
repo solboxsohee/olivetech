@@ -4,8 +4,15 @@ import PageTitle from '@/app/_components/pageLayout/pageTitle';
 import PageImg from '@/app/_components/pageLayout/pageImg';
 import { Flex, Button } from 'antd';
 import styles from '@/app/_styles/content.module.css';
+import SecondMenu from '@/app/_components/layouts/secondMenu';
 
 export default function About() {
+    const secondMenuLinks = [
+        { href: '/company/about', name: '소개' },
+        { href: '/company/history', name: '연혁' },
+        { href: '/company/news', name: '뉴스' },
+        { href: '/company/location', name: '오시는 길' },
+    ];
     return (
         <>
             <PageTitle
@@ -13,6 +20,7 @@ export default function About() {
                 MainTitle={'데이터 경제를 선도하는'}
                 MainBoldTitle={'핵심 보안스토리지 솔루션을 제공합니다.'}
             />
+            <SecondMenu menuName={'올리브텍 소개'} links={secondMenuLinks} border={false} />
             <PageImg imgSrc={'aboutImg'} />
             <main className="main-content">
                 <Flex className={styles.subContent}>

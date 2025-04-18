@@ -3,8 +3,15 @@ import React from 'react';
 import PageTitle from '@/app/_components/pageLayout/pageTitle';
 import styles from '@/app/_styles/content.module.css';
 import { Flex } from 'antd';
+import SecondMenu from '@/app/_components/layouts/secondMenu';
 
 export default function Location() {
+    const secondMenuLinks = [
+        { href: '/company/about', name: '소개' },
+        { href: '/company/history', name: '연혁' },
+        { href: '/company/news', name: '뉴스' },
+        { href: '/company/location', name: '오시는 길' },
+    ];
     return (
         <>
             <PageTitle
@@ -12,6 +19,7 @@ export default function Location() {
                 MainTitle={'안내해드립니다.'}
                 MainBoldTitle={'찾아오시는 길'}
             />
+            <SecondMenu menuName={'올리브텍 소개'} links={secondMenuLinks} />
             <main className="main-content">
                 <article className={styles.contentDivide}>
                     <iframe

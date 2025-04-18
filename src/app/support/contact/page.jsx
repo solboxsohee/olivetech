@@ -4,8 +4,16 @@ import PageTitle from '@/app/_components/pageLayout/pageTitle';
 import PageImg from '@/app/_components/pageLayout/pageImg';
 import { Checkbox, Form, Input, Flex, Button } from 'antd';
 import '@/app/_styles/form.css';
+import SecondMenu from '@/app/_components/layouts/secondMenu';
 
 export default function ContactForm() {
+    const secondMenuLinks = [
+        { href: '', name: '소개자료' },
+        { href: '', name: '기술자료' },
+        { href: '', name: 'S/W 다운로드' },
+        { href: '/support/faq', name: 'FAQ' },
+        { href: '/support/contact', name: '문의하기' },
+    ];
     return (
         <>
             <PageTitle
@@ -13,6 +21,7 @@ export default function ContactForm() {
                 MainTitle={'올리브텍 전문가들과'}
                 MainBoldTitle={'함께 하세요.'}
             />
+            <SecondMenu menuName={'고객 지원'} links={secondMenuLinks} border={false} />
             <PageImg imgSrc={'contactImg'} />
             <main className="main-content">
                 <h2>

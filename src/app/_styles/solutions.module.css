@@ -37,7 +37,7 @@
 }
 
 .solTable th {
-    border: 1px solid #d7d7d7;
+    border: 1px solid #e8e7e7;
     padding: 8px;
     background: #48aedd;
     color: #fff;
@@ -46,7 +46,7 @@
     line-height: 1.5;
 }
 .solTable td {
-    border: 1px solid #d7d7d7;
+    border: 1px solid #e8e7e7;
     padding: 8px;
     line-height: 1.5;
 }

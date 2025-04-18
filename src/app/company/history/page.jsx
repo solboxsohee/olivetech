@@ -4,8 +4,15 @@ import PageTitle from '@/app/_components/pageLayout/pageTitle';
 import PageImg from '@/app/_components/pageLayout/pageImg';
 import styles from '@/app/_styles/content.module.css';
 import { Flex } from 'antd';
+import SecondMenu from '@/app/_components/layouts/secondMenu';
 
 export default function History() {
+    const secondMenuLinks = [
+        { href: '/company/about', name: '소개' },
+        { href: '/company/history', name: '연혁' },
+        { href: '/company/news', name: '뉴스' },
+        { href: '/company/location', name: '오시는 길' },
+    ];
     return (
         <>
             <PageTitle
@@ -13,6 +20,7 @@ export default function History() {
                 MainTitle={'끊임없는 혁신을 통해'}
                 MainBoldTitle={'올리브텍을 만들어 갑니다.'}
             />
+            <SecondMenu menuName={'올리브텍 소개'} links={secondMenuLinks} border={false} />
             <PageImg imgSrc={'historyImg'} />
             <main className="main-content">
                 <Flex align="center" className={styles.contentDivide}>

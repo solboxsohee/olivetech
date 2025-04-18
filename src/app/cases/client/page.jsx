@@ -3,8 +3,14 @@ import React from 'react';
 import PageTitle from '@/app/_components/pageLayout/pageTitle';
 import Image from 'next/image';
 import styles from '@/app/_styles/customer.module.css';
+import SecondMenu from '@/app/_components/layouts/secondMenu';
 
 export default function Client() {
+    const secondMenuLinks = [
+        { href: '/cases/client', name: 'WORM 스토리지' },
+        { href: '/cases/pdsClient', name: 'SecuPDS' },
+        { href: '/cases/example', name: '적용 사례' },
+    ];
     return (
         <>
             <PageTitle
@@ -12,6 +18,7 @@ export default function Client() {
                 MainTitle={'더 큰 성취를 향해'}
                 MainBoldTitle={'함께 나아갑니다.'}
             />
+            <SecondMenu menuName={'고객 사례'} links={secondMenuLinks} />
             <main className="main-content">
                 <article className={styles.logoCategory}>
                     <h1 className={styles.logoHead}>정부기관</h1>
