@@ -16,6 +16,9 @@
     line-height: 1;
 }
 
+a {
+    text-decoration: none;
+}
 b {
     font-weight: 600;
 }

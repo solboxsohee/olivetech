@@ -1,0 +1,65 @@
+.solLayout {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.solTitle {
+    font-size: 34px;
+    width: 16%;
+    line-height: 1.3;
+}
+.smallTitle {
+    font-size: 24px !important;
+    margin-bottom: 15px !important;
+}
+.solTxt {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.solTxt p {
+    font-size: 18px;
+}
+.solTxt li {
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.solTxt li::before {
+    content: '· ';
+}
+
+.solTable {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.solTable th {
+    border: 1px solid #d7d7d7;
+    padding: 8px;
+    background: #48aedd;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.solTable td {
+    border: 1px solid #d7d7d7;
+    padding: 8px;
+    line-height: 1.5;
+}
+.evenRow {
+    background: #f8f8fa;
+}
+.modelNum {
+    background: #e6e6eb;
+}
+.modelSpec {
+    width: 100%;
+}
+.modelSpec td {
+    font-size: 18px;
+    padding: 6px 0;
+}

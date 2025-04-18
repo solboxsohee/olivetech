@@ -6,6 +6,7 @@ import HomeNews from '@/app/_components/home/homeNews';
 import HomeCase from '@/app/_components/home/homeCase';
 import HomeSolution from '@/app/_components/home/homeSolution';
 import HomeTech from '@/app/_components/home/homeTech';
+import HomeCustomer from './_components/home/homeCustomer';
 
 export default function HomePage() {
     return (
@@ -19,6 +20,7 @@ export default function HomePage() {
             <HomeTitle engTitle={'News'} korTitle={'올리브텍 소식을 알려드립니다'} />
             <HomeNews />
             <HomeTitle engTitle={'Customer'} korTitle={'함께 도약하고 성장합니다.'} />
+            <HomeCustomer />
         </>
     );
 }

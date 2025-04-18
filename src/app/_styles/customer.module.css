@@ -13,6 +13,12 @@
     flex-wrap: wrap;
     gap: 15px;
 }
+.mainLogoWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+}
 .logoBox {
     position: relative;
     width: 230;
