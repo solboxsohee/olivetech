@@ -37,7 +37,7 @@ export default function Faq() {
             />
             <SecondMenu menuName={'고객 지원'} links={secondMenuLinks} />
             <main className="main-content">
-                <Tabs defaultActiveKey="1" items={items} />
+                <Tabs defaultActiveKey="1" items={items} size="large" />
             </main>
         </>
     );

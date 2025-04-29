@@ -19,3 +19,31 @@
     background-size: cover;
     background-position: center;
 }
+.mallImg {
+    width: 100%;
+    height: 380px;
+    background-image: url('/bg/digitalserviceMall.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.wormImg {
+    width: 100%;
+    height: 380px;
+    background-image: url('/bg/wormSolution.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.mydataImg {
+    width: 100%;
+    height: 380px;
+    background-image: url('/bg/mydata.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.secuPdsImg {
+    width: 100%;
+    height: 380px;
+    background-image: url('/bg/secuPDS.jpg');
+    background-size: cover;
+    background-position: center;
+}

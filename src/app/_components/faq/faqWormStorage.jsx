@@ -126,7 +126,7 @@ const items = [
 export default function FaqWormStorage() {
     return (
         <>
-            <Collapse defaultActiveKey={['1']} items={items} />
+            <Collapse defaultActiveKey={['1']} items={items} bordered={false} />
         </>
     );
 }

@@ -18,7 +18,7 @@ export default function SecuPDS() {
                 MainBoldTitle={'안전한 데이터 연계와 혁신을 지원합니다.'}
             />
             <SecondMenu menuName={'보안저장소(PDS)'} links={secondMenuLinks} border={false} />
-            <PageImg imgSrc={'aboutImg'} />
+            <PageImg imgSrc={'secuPdsImg'} />
             <main className="main-content">
                 <section className={styles.solLayout}>
                     <h1 className={styles.solTitle}>SecuPDS v1.0</h1>

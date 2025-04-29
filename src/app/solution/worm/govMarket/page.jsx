@@ -19,7 +19,7 @@ export default function GovMarket() {
                 MainBoldTitle={'데이터 원본을 안전하게 보호합니다.'}
             />
             <SecondMenu menuName={'WORM 스토리지'} links={secondMenuLinks} border={false} />
-            <PageImg imgSrc={'aboutImg'} />
+            <PageImg imgSrc={'mallImg'} />
             <main className="main-content">
                 <section className={styles.solLayout}>
                     <h1 className={styles.solTitle}>조달등록제품</h1>

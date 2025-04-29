@@ -65,7 +65,7 @@ const items = [
 export default function SecuPds() {
     return (
         <>
-            <Collapse defaultActiveKey={['1']} items={items} />
+            <Collapse defaultActiveKey={['1']} items={items} bordered={false} />
         </>
     );
 }
