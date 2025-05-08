@@ -5,6 +5,10 @@ import exampleData from '@/data/exampleData';
 import Image from 'next/image';
 import styles from '@/app/_styles/view.module.css';
 
+export function generateStaticParams() {
+    return Object.keys(exampleData).map((slug) => ({ slug }));
+}
+
 export default function CardDetail({ params }) {
     const { slug } = params;
     const example = exampleData[slug];

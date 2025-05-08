@@ -1,25 +1,27 @@
 {
-  "name": "design",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "antd": "^5.24.5",
-    "next": "15.2.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "eslint": "^9.23.0",
-    "eslint-config-next": "^15.2.4",
-    "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-prettier": "^5.2.6",
-    "prettier": "^3.5.3"
-  }
+    "name": "design",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev --turbopack",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "export": "next export"
+    },
+    "dependencies": {
+        "antd": "^5.24.5",
+        "aos": "^2.3.4",
+        "next": "15.2.4",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3",
+        "eslint": "^9.23.0",
+        "eslint-config-next": "^15.2.4",
+        "eslint-config-prettier": "^10.1.1",
+        "eslint-plugin-prettier": "^5.2.6",
+        "prettier": "^3.5.3"
+    }
 }

@@ -4,6 +4,10 @@ import newsData from '@/data/newsData';
 import style from '@/app/_styles/view.module.css';
 import Image from 'next/image';
 
+export function generateStaticParams() {
+    return Object.keys(newsData).map((slug) => ({ slug }));
+}
+
 export default function CardDetail({ params }) {
     const { slug } = params;
     const news = newsData[slug];
