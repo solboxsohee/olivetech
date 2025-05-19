@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1026.38 400.65">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-family: PretendardVariable-Medium, 'Pretendard Variable';
+        font-variation-settings: 'wght' 500;
+        font-weight: 500;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #353535;
+        font-size: 15.38px;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        fill: url(#_무제_그라디언트_57);
+      }
+
+      .cls-7 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #2679e3;
+      }
+
+      .cls-8, .cls-2 {
+        font-size: 18px;
+      }
+
+      .cls-8, .cls-10 {
+        font-family: PretendardVariable-Bold, 'Pretendard Variable';
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-11 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-10 {
+        fill: #fff;
+      }
+
+      .cls-13 {
+        font-size: 20.95px;
+      }
+
+      .cls-13, .cls-15, .cls-16, .cls-17 {
+        font-family: PretendardVariable-SemiBold, 'Pretendard Variable';
+        font-variation-settings: 'wght' 600;
+        font-weight: 600;
+      }
+
+      .cls-18 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-14 {
+        opacity: .79;
+      }
+
+      .cls-19 {
+        fill: #b6c9d8;
+      }
+
+      .cls-20 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-21 {
+        fill: #4591ff;
+      }
+
+      .cls-22 {
+        fill: #b6bcc1;
+        opacity: .58;
+      }
+
+      .cls-23 {
+        fill: #515c66;
+      }
+
+      .cls-24 {
+        fill: #7aadff;
+      }
+
+      .cls-25 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-15 {
+        font-size: 20px;
+      }
+
+      .cls-2 {
+        fill: #333;
+      }
+
+      .cls-26 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-27 {
+        fill: #a1ccff;
+        opacity: .25;
+      }
+
+      .cls-28, .cls-17 {
+        fill: #2e3b89;
+      }
+
+      .cls-16, .cls-17 {
+        font-size: 20px;
+      }
+
+      .cls-29 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-30 {
+        fill: #eee;
+      }
+
+      .cls-31 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        font-size: 22px;
+      }
+
+      .cls-32 {
+        letter-spacing: 0em;
+      }
+
+      .cls-33 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-34 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-35 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-36 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-37 {
+        fill: #cdd0d3;
+      }
+    </style>
+    <linearGradient id="_무제_그라디언트_57" data-name="무제 그라디언트 57" x1="418.24" y1="199.13" x2="602.36" y2="231.13" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7aadff"/>
+      <stop offset="1" stop-color="#2679e3"/>
+    </linearGradient>
+  </defs>
+  <g id="_레이어_1-2" data-name="레이어 1">
+    <g>
+      <rect class="cls-30" width="1026.38" height="361.15" rx="12" ry="12"/>
+      <rect class="cls-12" x="26.7" y="53.98" width="366.89" height="268.61" rx="12" ry="12"/>
+      <rect class="cls-23" x="69.3" y="31" width="281.7" height="45.96" rx="12" ry="12"/>
+      <rect class="cls-12" x="631.14" y="54.65" width="366.89" height="268.61" rx="12" ry="12"/>
+      <rect class="cls-28" x="673.74" y="31.67" width="281.7" height="45.96" rx="12" ry="12"/>
+      <text class="cls-10" transform="translate(126.47 61.9)"><tspan x="0" y="0">기존 운영 가상 머신</tspan></text>
+      <text class="cls-8" transform="translate(423.69 144.36)"><tspan x="0" y="0">컴플라이언스 데이터 저장</tspan><tspan x="21.26" y="24">및 핵심 데이터 보호</tspan></text>
+      <text class="cls-8" transform="translate(447.03 283.44)"><tspan x="0" y="0">가상화된 자원 활용</tspan></text>
+      <text class="cls-2" transform="translate(323.64 395.36)"><tspan x="0" y="0">&lt;클라우드에 생성한 VM을 </tspan><tspan class="cls-11" x="192.22" y="0">W</tspan><tspan x="208.55" y="0">ORM S</tspan><tspan class="cls-32" x="263.87" y="0">t</tspan><tspan x="270.07" y="0">o</tspan><tspan class="cls-31" x="280.42" y="0">r</tspan><tspan x="286.87" y="0">age로 구성&gt;</tspan></text>
+      <g>
+        <text class="cls-3" transform="translate(302.39 177.47)"><tspan class="cls-4" x="0" y="0">C</tspan><tspan x="10.76" y="0">AD</tspan></text>
+        <g>
+          <g>
+            <polygon class="cls-37" points="318.23 104.42 340.73 117.41 340.73 143.4 318.23 156.39 295.72 143.4 295.72 117.41 318.23 104.42"/>
+            <g>
+              <polygon class="cls-22" points="295.72 143.4 318.23 130.4 295.72 117.41 295.72 143.4"/>
+              <polygon class="cls-19" points="318.23 130.4 340.73 143.4 340.73 117.41 318.23 130.4"/>
+              <polygon class="cls-27" points="318.23 156.39 340.73 143.4 318.23 130.4 318.23 156.39"/>
+            </g>
+          </g>
+          <text class="cls-15" transform="translate(302.56 137.64)"><tspan x="0" y="0">VM</tspan></text>
+        </g>
+        <text class="cls-3" transform="translate(212.75 177.47)"><tspan x="0" y="0">그룹웨어</tspan></text>
+        <g>
+          <g>
+            <polygon class="cls-37" points="239.34 104.42 261.85 117.41 261.85 143.4 239.34 156.39 216.84 143.4 216.84 117.41 239.34 104.42"/>
+            <g>
+              <polygon class="cls-22" points="216.84 143.4 239.34 130.4 216.84 117.41 216.84 143.4"/>
+              <polygon class="cls-19" points="239.34 130.4 261.85 143.4 261.85 117.41 239.34 130.4"/>
+              <polygon class="cls-27" points="239.34 156.39 261.85 143.4 239.34 130.4 239.34 156.39"/>
+            </g>
+          </g>
+          <text class="cls-15" transform="translate(223.68 137.64)"><tspan x="0" y="0">VM</tspan></text>
+        </g>
+        <text class="cls-3" transform="translate(150.5 177.47)"><tspan x="0" y="0">DB</tspan></text>
+        <g>
+          <g>
+            <polygon class="cls-37" points="160.62 104.42 183.12 117.41 183.12 143.4 160.62 156.39 138.12 143.4 138.12 117.41 160.62 104.42"/>
+            <g>
+              <polygon class="cls-22" points="138.12 143.4 160.62 130.41 138.12 117.41 138.12 143.4"/>
+              <polygon class="cls-19" points="160.62 130.41 183.12 143.4 183.12 117.41 160.62 130.41"/>
+              <polygon class="cls-27" points="160.62 156.39 183.12 143.4 160.62 130.41 160.62 156.39"/>
+            </g>
+          </g>
+          <text class="cls-15" transform="translate(144.95 137.64)"><tspan x="0" y="0">VM</tspan></text>
+        </g>
+        <text class="cls-1" transform="translate(65.83 177.47)"><tspan x="0" y="0">WEB</tspan></text>
+        <g>
+          <g>
+            <polygon class="cls-37" points="81.53 104.42 104.04 117.41 104.04 143.4 81.53 156.39 59.03 143.4 59.03 117.41 81.53 104.42"/>
+            <g>
+              <polygon class="cls-22" points="59.03 143.4 81.53 130.4 59.03 117.41 59.03 143.4"/>
+              <polygon class="cls-19" points="81.53 130.4 104.04 143.4 104.04 117.41 81.53 130.4"/>
+              <polygon class="cls-27" points="81.53 156.39 104.04 143.4 81.53 130.4 81.53 156.39"/>
+            </g>
+          </g>
+          <text class="cls-13" transform="translate(65.12 137.36)"><tspan x="0" y="0">VM</tspan></text>
+        </g>
+      </g>
+      <g>
+        <text class="cls-3" transform="translate(303.35 288.71)"><tspan x="0" y="0">DEV</tspan></text>
+        <g>
+          <g>
+            <polygon class="cls-37" points="318.23 215.66 340.73 228.65 340.73 254.64 318.23 267.63 295.72 254.64 295.72 228.65 318.23 215.66"/>
+            <g>
+              <polygon class="cls-22" points="295.72 254.64 318.23 241.65 295.72 228.65 295.72 254.64"/>
+              <polygon class="cls-19" points="318.23 241.65 340.73 254.64 340.73 228.65 318.23 241.65"/>
+              <polygon class="cls-27" points="318.23 267.63 340.73 254.64 318.23 241.65 318.23 267.63"/>
+            </g>
+          </g>
+          <text class="cls-15" transform="translate(302.56 248.88)"><tspan x="0" y="0">VM</tspan></text>
+        </g>
+        <text class="cls-3" transform="translate(212.75 288.71)"><tspan x="0" y="0">문서관리</tspan></text>
+        <g>
+          <g>
+            <polygon class="cls-37" points="239.34 215.66 261.85 228.65 261.85 254.64 239.34 267.63 216.84 254.64 216.84 228.65 239.34 215.66"/>
+            <g>
+              <polygon class="cls-22" points="216.84 254.64 239.34 241.65 216.84 228.65 216.84 254.64"/>
+              <polygon class="cls-19" points="239.34 241.65 261.85 254.64 261.85 228.65 239.34 241.65"/>
+              <polygon class="cls-27" points="239.34 267.63 261.85 254.64 239.34 241.65 239.34 267.63"/>
+            </g>
+          </g>
+          <text class="cls-15" transform="translate(223.68 248.88)"><tspan x="0" y="0">VM</tspan></text>
+        </g>
+        <text class="cls-3" transform="translate(146.26 288.71)"><tspan x="0" y="0">Mail</tspan></text>
+        <g>
+          <g>
+            <polygon class="cls-37" points="160.62 215.66 183.12 228.66 183.12 254.64 160.62 267.63 138.12 254.64 138.12 228.66 160.62 215.66"/>
+            <g>
+              <polygon class="cls-22" points="138.12 254.64 160.62 241.65 138.12 228.66 138.12 254.64"/>
+              <polygon class="cls-19" points="160.62 241.65 183.12 254.64 183.12 228.66 160.62 241.65"/>
+              <polygon class="cls-27" points="160.62 267.63 183.12 254.64 160.62 241.65 160.62 267.63"/>
+            </g>
+          </g>
+          <text class="cls-15" transform="translate(144.95 248.88)"><tspan x="0" y="0">VM</tspan></text>
+        </g>
+        <text class="cls-3" transform="translate(65.69 288.71)"><tspan class="cls-34" x="0" y="0">W</tspan><tspan class="cls-35" x="12.8" y="0">A</tspan><tspan class="cls-33" x="22.24" y="0">S</tspan></text>
+        <g>
+          <g>
+            <polygon class="cls-37" points="81.53 215.66 104.04 228.65 104.04 254.64 81.53 267.63 59.03 254.64 59.03 228.65 81.53 215.66"/>
+            <g>
+              <polygon class="cls-22" points="59.03 254.64 81.53 241.65 59.03 228.65 59.03 254.64"/>
+              <polygon class="cls-19" points="81.53 241.65 104.04 254.64 104.04 228.65 81.53 241.65"/>
+              <polygon class="cls-27" points="81.53 267.63 104.04 254.64 81.53 241.65 81.53 267.63"/>
+            </g>
+          </g>
+          <text class="cls-13" transform="translate(65.12 248.6)"><tspan x="0" y="0">VM</tspan></text>
+        </g>
+      </g>
+      <text class="cls-10" transform="translate(766.72 61.9)"><tspan class="cls-20" x="0" y="0">V-</tspan><tspan class="cls-18" x="24.74" y="0">W</tspan><tspan x="45.85" y="0">ORM</tspan></text>
+      <g>
+        <rect class="cls-24" x="689.61" y="160.09" width="249.95" height="40.98" rx="10.75" ry="10.75"/>
+        <text class="cls-16" transform="translate(750.13 187.88)"><tspan class="cls-25" x="0" y="0">W</tspan><tspan class="cls-36" x="18.47" y="0">ORM S</tspan><tspan class="cls-5" x="79.5" y="0">t</tspan><tspan class="cls-36" x="86.4" y="0">o</tspan><tspan class="cls-26" x="97.85" y="0">r</tspan><tspan class="cls-36" x="105" y="0">age OS</tspan></text>
+        <g>
+          <path class="cls-12" d="M720.73,173.06c.75.34,1.44.77,2.07,1.29l1.41-1.01c.51-.37,1.24-.25,1.61.26l1.73,2.4c.37.51.25,1.24-.26,1.61l-1.41,1.01c.28.77.47,1.56.56,2.38l1.71.28c.31.05.57.23.75.46l-.38.27.38-.27c.17.25.25.54.2.86l-.48,2.92c-.1.63-.7,1.05-1.32.95l-1.71-.28c-.34.75-.77,1.44-1.29,2.07l1.01,1.41c.37.51.25,1.24-.26,1.61l-2.4,1.73c-.51.37-1.24.25-1.61-.26l-1.01-1.41c-.77.28-1.56.47-2.38.56l-.28,1.71c-.05.31-.22.58-.46.75h0c-.24.17-.55.25-.86.2l-2.92-.48c-.63-.1-1.05-.7-.95-1.32l.28-1.71c-.75-.34-1.44-.77-2.07-1.29l-1.41,1.01c-.51.37-1.24.25-1.61-.26l-1.73-2.4c-.37-.51-.25-1.24.26-1.61l1.41-1.01c-.28-.77-.47-1.56-.56-2.38l-1.71-.28c-.63-.1-1.05-.7-.95-1.32l.48-2.92c.05-.31.22-.58.46-.75h0c.24-.17.55-.25.86-.2l1.71.28c.34-.75.77-1.44,1.29-2.07l-1.01-1.41c-.37-.51-.25-1.24.26-1.61l2.4-1.73c.51-.37,1.24-.25,1.61.26l1.01,1.41c.77-.28,1.56-.47,2.38-.56l.28-1.71c.1-.63.7-1.05,1.32-.95l2.92.48c.31.05.57.22.75.46l-.38.27.38-.27c.17.25.25.54.2.86l-.28,1.71h0ZM717.54,176.3c-3.17-.52-6.17,1.64-6.69,4.81s1.64,6.17,4.81,6.69,6.17-1.64,6.69-4.81c.52-3.17-1.64-6.17-4.81-6.69Z"/>
+          <path class="cls-12" d="M742.35,173.71c.03-.18-.02-.37-.12-.51-.1-.14-.26-.24-.44-.27l-.88-.14c-.05-.42-.14-.82-.29-1.22l.73-.52c.3-.22.37-.64.15-.95l-.93-1.3c-.22-.3-.64-.37-.95-.15l-.73.52c-.33-.26-.68-.48-1.06-.66h0s.14-.88.14-.88c.03-.18-.02-.37-.12-.51-.1-.14-.26-.24-.44-.27l-1.58-.26c-.19-.03-.36.02-.51.12h0c-.14.1-.24.26-.27.44l-.14.88c-.42.05-.82.14-1.22.29l-.52-.73h0c-.22-.3-.64-.37-.95-.15l-1.3.93c-.3.22-.37.64-.15.95l.52.73c-.26.33-.48.68-.66,1.06l-.88-.14c-.19-.03-.36.02-.51.12h0c-.14.1-.24.26-.27.44l-.26,1.58c-.03.18.02.37.12.51.1.14.26.24.44.27l.88.14c.05.42.14.82.29,1.22l-.73.52c-.31.22-.37.65-.15.95l.93,1.3c.22.31.65.37.95.15l.73-.52c.33.26.68.48,1.06.66l-.14.88c-.03.18.02.37.12.51.1.14.26.24.44.27l1.58.26c.19.03.36-.02.51-.12h0c.14-.1.24-.26.27-.44l.14-.88c.42-.05.82-.14,1.22-.29l.52.73.25-.18-.25.18c.22.3.64.37.95.15l1.3-.93-.18-.25.18.25c.3-.22.37-.64.15-.95l-.52-.73c.26-.33.48-.68.66-1.06l.88.14c.19.03.36-.02.51-.12h0c.14-.1.24-.26.27-.44l.26-1.58ZM735.02,176.57c-1.75-.29-2.93-1.93-2.65-3.68s1.93-2.93,3.68-2.65,2.93,1.93,2.65,3.68-1.93,2.93-3.68,2.65Z"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <ellipse class="cls-9" cx="814.59" cy="245.45" rx="122.84" ry="11.04"/>
+          <rect class="cls-9" x="691.75" y="221.51" width="245.68" height="24.66"/>
+          <ellipse class="cls-21" cx="814.59" cy="222.1" rx="122.84" ry="11.04"/>
+        </g>
+        <text class="cls-16" transform="translate(786.39 240.38)"><tspan x="0" y="0">vDISK</tspan></text>
+      </g>
+      <g>
+        <g>
+          <path class="cls-24" d="M698.46,266.49h64.32c2.76,0,5,2.24,5,5v19.21c0,3.14-2.55,5.68-5.68,5.68h-63.64c-3.14,0-5.68-2.55-5.68-5.68v-18.53c0-3.14,2.55-5.68,5.68-5.68Z"/>
+          <text class="cls-16" transform="translate(704.41 288.5)"><tspan x="0" y="0">vCPU</tspan></text>
+        </g>
+        <g>
+          <path class="cls-24" d="M784.63,266.49h62.32c2.76,0,5,2.24,5,5v17.21c0,4.24-3.44,7.68-7.68,7.68h-59.64c-4.24,0-7.68-3.44-7.68-7.68v-14.53c0-4.24,3.44-7.68,7.68-7.68Z"/>
+          <text class="cls-16" transform="translate(787.27 288.5)"><tspan x="0" y="0">vMEN</tspan></text>
+        </g>
+        <g>
+          <path class="cls-24" d="M869.07,266.49h62.32c2.76,0,5,2.24,5,5v17.21c0,4.24-3.44,7.68-7.68,7.68h-59.64c-4.24,0-7.68-3.44-7.68-7.68v-14.53c0-4.24,3.44-7.68,7.68-7.68Z"/>
+          <text class="cls-16" transform="translate(876.52 288.5)"><tspan x="0" y="0">vNIC</tspan></text>
+        </g>
+      </g>
+      <g>
+        <g>
+          <g>
+            <ellipse class="cls-9" cx="737.82" cy="144.36" rx="33.03" ry="5.73"/>
+            <rect class="cls-9" x="704.79" y="131.94" width="66.05" height="12.79"/>
+            <ellipse class="cls-24" cx="737.82" cy="132.24" rx="33.03" ry="5.73"/>
+          </g>
+          <g>
+            <ellipse class="cls-9" cx="737.82" cy="130.03" rx="33.03" ry="5.73"/>
+            <rect class="cls-9" x="704.79" y="117.61" width="66.05" height="12.79"/>
+            <ellipse class="cls-24" cx="737.82" cy="117.92" rx="33.03" ry="5.73"/>
+          </g>
+          <g>
+            <ellipse class="cls-9" cx="737.82" cy="115.71" rx="33.03" ry="5.73"/>
+            <rect class="cls-9" x="704.79" y="103.28" width="66.05" height="12.79"/>
+            <ellipse class="cls-24" cx="737.82" cy="103.59" rx="33.03" ry="5.73"/>
+          </g>
+        </g>
+        <g>
+          <g>
+            <ellipse class="cls-9" cx="814.59" cy="144.36" rx="33.03" ry="5.73"/>
+            <rect class="cls-9" x="781.56" y="131.94" width="66.05" height="12.79"/>
+            <ellipse class="cls-24" cx="814.59" cy="132.24" rx="33.03" ry="5.73"/>
+          </g>
+          <g>
+            <ellipse class="cls-9" cx="814.59" cy="130.03" rx="33.03" ry="5.73"/>
+            <rect class="cls-9" x="781.56" y="117.61" width="66.05" height="12.79"/>
+            <ellipse class="cls-24" cx="814.59" cy="117.92" rx="33.03" ry="5.73"/>
+          </g>
+          <g>
+            <ellipse class="cls-9" cx="814.59" cy="115.71" rx="33.03" ry="5.73"/>
+            <rect class="cls-9" x="781.56" y="103.28" width="66.05" height="12.79"/>
+            <ellipse class="cls-24" cx="814.59" cy="103.59" rx="33.03" ry="5.73"/>
+          </g>
+        </g>
+        <g>
+          <g>
+            <ellipse class="cls-9" cx="891.35" cy="144.36" rx="33.03" ry="5.73"/>
+            <rect class="cls-9" x="858.32" y="131.94" width="66.05" height="12.79"/>
+            <ellipse class="cls-24" cx="891.35" cy="132.24" rx="33.03" ry="5.73"/>
+          </g>
+          <g>
+            <ellipse class="cls-9" cx="891.35" cy="130.03" rx="33.03" ry="5.73"/>
+            <rect class="cls-9" x="858.32" y="117.61" width="66.05" height="12.79"/>
+            <ellipse class="cls-24" cx="891.35" cy="117.92" rx="33.03" ry="5.73"/>
+          </g>
+          <g>
+            <ellipse class="cls-9" cx="891.35" cy="115.71" rx="33.03" ry="5.73"/>
+            <rect class="cls-9" x="858.32" y="103.28" width="66.05" height="12.79"/>
+            <ellipse class="cls-24" cx="891.35" cy="103.59" rx="33.03" ry="5.73"/>
+          </g>
+        </g>
+        <rect class="cls-14" x="737.82" y="115.83" width="153.53" height="25.36" rx="6.74" ry="6.74"/>
+        <text class="cls-17" transform="translate(745.27 135.76)"><tspan class="cls-29" x="0" y="0">W</tspan><tspan x="18.67" y="0">ORM </tspan><tspan class="cls-7" x="68.25" y="0">V</tspan><tspan x="80.99" y="0">olume</tspan></text>
+      </g>
+      <path class="cls-6" d="M418.8,195.93s81.45,32.31,152.64,11.45l-27.36-16.2,63.94,7.35-45.7,59.22,9.07-27.18s-66.87,16.02-152.6-34.65Z"/>
+    </g>
+  </g>
+</svg>

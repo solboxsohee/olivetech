@@ -137,16 +137,24 @@ export default function WormProducts() {
                 </section>
                 <section className={styles.solLayout}>
                     <h1 className={styles.solTitle}>가상 WORM 스토리지</h1>
-                    <article className={styles.solTxt} data-aos="fade-up">
+                    <article
+                        className={styles.solTxt}
+                        data-aos="fade-up"
+                        style={{ flexDirection: 'column' }}
+                    >
                         <p>
-                            프라이비트 클라우드 및 퍼블릭 클라우드에 생성한 가상머신을 WORM
-                            스토리지로 구성할 수 있습니다. vSphere, Xen, Hyper-V, KVM, Oracle
-                            VirtualBox 및 Nutanix 포함 HCI 플랫폼 등 대부분의 프라이비트 클라우드
-                            환경과 AWS, Azure, Naver Cloud, KT Cloud, NHN Cloud 등 대표적인 국내외
-                            퍼블릭 클라우드 환경을 지원합니다. <br />
+                            프라이빗 클라우드 및 퍼블릭 클라우드에 생성한 가상머신을 WORM 스토리지로
+                            구성할 수 있습니다. vSphere, Xen, Hyper-V, KVM, Oracle VirtualBox 및
+                            Nutanix 포함 HCI 플랫폼 등 대부분의 프라이비트 클라우드 환경과 AWS,
+                            Azure, Naver Cloud, KT Cloud, NHN Cloud 등 대표적인 국내외 퍼블릭
+                            클라우드 환경을 지원합니다. <br />
                             라이선스는 기본 엔진 라이선스에 더하여 WORM 볼륨을 구성할 수 있는 용량에
-                            대한 라이선스를 1TB 단위로 구매할 수 있다.
+                            대한 라이선스를 1TB 단위로 구매할 수 있습니다.
                         </p>
+
+                        <div style={{ marginTop: 45 }}>
+                            <img src="/systemflow/V-WORM.svg" alt="v-worm" width={'100%'} />
+                        </div>
                     </article>
                 </section>
                 <section className={styles.solLayout}>
@@ -155,7 +163,11 @@ export default function WormProducts() {
                         <br />
                         솔루션
                     </h1>
-                    <article className={styles.solTxt} data-aos="fade-up">
+                    <article
+                        className={styles.solTxt}
+                        data-aos="fade-up"
+                        style={{ flexDirection: 'column' }}
+                    >
                         <p>
                             대부분의 범용 리눅스 배포판이 설치된 물리적,가상 서버의 로컬 스토리지에
                             IFS(Immutable File System,변경불가 파일시스템) 즉 보존기간 동안 데이터를
@@ -171,6 +183,9 @@ export default function WormProducts() {
                             더하여 WORM 볼륨을 구성할 수 있는 용량에 대한 라이선스를 1TB 단위로
                             구매할 수 있습니다.
                         </p>
+                        <div style={{ marginTop: 45 }}>
+                            <img src="/systemflow/IFS.svg" alt="ifs" />
+                        </div>
                     </article>
                 </section>
                 <section className={styles.solLayout}>
