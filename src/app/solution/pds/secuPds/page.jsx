@@ -22,7 +22,11 @@ export default function SecuPDS() {
             <main className="main-content">
                 <section className={styles.solLayout}>
                     <h1 className={styles.solTitle}>SecuPDS v1.0</h1>
-                    <article className={styles.solTxt}>
+                    <article
+                        className={styles.solTxt}
+                        data-aos="fade-up"
+                        style={{ flexDirection: 'column' }}
+                    >
                         <p>
                             SecuPDS v1.0은 공공마이데이터 이용기관 보안저장소(PDS)를 구축할 수 있게
                             해 주는 소프트웨어 솔루션입니다. <br />
@@ -32,11 +36,14 @@ export default function SecuPDS() {
                             이상의 묶음정보를 처리하는 안정성과 성능을 갖추고 있으며 이용기관 PDS
                             시장의 95% 이상을 확보하고 있습니다.
                         </p>
+                        <div style={{ paddingTop: 45 }}>
+                            <img src="/systemflow/secupds.svg" alt="secuPds" width={'100%'} />
+                        </div>
                     </article>
                 </section>
                 <section className={styles.solLayout}>
                     <h1 className={styles.solTitle}>주요 기능</h1>
-                    <div className={styles.solTxt}>
+                    <div className={styles.solTxt} data-aos="fade-up">
                         <article>
                             <h2 className={styles.smallTitle}>보안 저장소 서버 기능</h2>
                             <ul>
@@ -64,7 +71,7 @@ export default function SecuPDS() {
                 </section>
                 <section className={styles.solLayout}>
                     <h1 className={styles.solTitle}>특장점</h1>
-                    <article className={styles.solTxt}>
+                    <article className={styles.solTxt} data-aos="fade-up">
                         <ul>
                             <li>GS 1등급 인증 및 우수조달제품 인증</li>
                             <li>PDS 솔루션 분야 95% 이상의 압도적 시장 점유율</li>

@@ -22,7 +22,7 @@ export default function GovMarket() {
             <main className="main-content">
                 <section className={styles.solLayout}>
                     <h1 className={styles.solTitle}>조달등록제품</h1>
-                    <article className={styles.solTxt}>
+                    <article className={styles.solTxt} data-aos="fade-up">
                         <p>
                             SecuPDS v1.0 소프트웨어는 조달청 디지털서비스몰에서 구매를 하실 수
                             있으며, SecuPDS v1.0 탑재에 최적화된 전용 서버인 A5000 서버는 나라장터
@@ -36,7 +36,11 @@ export default function GovMarket() {
                         <br />
                         v1.0
                     </h1>
-                    <article className={styles.solTxt} style={{ flexDirection: 'column' }}>
+                    <article
+                        className={styles.solTxt}
+                        style={{ flexDirection: 'column' }}
+                        data-aos="fade-up"
+                    >
                         <h2 className={styles.smallTitle}>모델명 Splentec Storage v4.1, 10TB</h2>
                         <table className={styles.modelSpec}>
                             <tbody>
@@ -76,7 +80,11 @@ export default function GovMarket() {
                         <br />
                         전용 서버
                     </h1>
-                    <article className={styles.solTxt} style={{ flexDirection: 'column' }}>
+                    <article
+                        className={styles.solTxt}
+                        style={{ flexDirection: 'column' }}
+                        data-aos="fade-up"
+                    >
                         <h2 className={styles.smallTitle}>모델명 A5000-</h2>
                         <table className={styles.modelSpec}>
                             <tbody>

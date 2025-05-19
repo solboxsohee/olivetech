@@ -26,7 +26,11 @@ export default function WormProducts() {
                         <br />
                         스토리지
                     </h1>
-                    <article className={styles.solTxt} style={{ flexDirection: 'column' }}>
+                    <article
+                        className={styles.solTxt}
+                        style={{ flexDirection: 'column' }}
+                        data-aos="fade-up"
+                    >
                         <p>
                             산업 표준 19인치 랙-마운트 타입의 고성능 대용량 WORM 스토리지 시스템으로
                             주요 파트의 이중화를 통해 뛰어난 신뢰성을 제공하며 고성능 하드웨어 및
@@ -133,7 +137,7 @@ export default function WormProducts() {
                 </section>
                 <section className={styles.solLayout}>
                     <h1 className={styles.solTitle}>가상 WORM 스토리지</h1>
-                    <article className={styles.solTxt}>
+                    <article className={styles.solTxt} data-aos="fade-up">
                         <p>
                             프라이비트 클라우드 및 퍼블릭 클라우드에 생성한 가상머신을 WORM
                             스토리지로 구성할 수 있습니다. vSphere, Xen, Hyper-V, KVM, Oracle
@@ -151,7 +155,7 @@ export default function WormProducts() {
                         <br />
                         솔루션
                     </h1>
-                    <article className={styles.solTxt}>
+                    <article className={styles.solTxt} data-aos="fade-up">
                         <p>
                             대부분의 범용 리눅스 배포판이 설치된 물리적,가상 서버의 로컬 스토리지에
                             IFS(Immutable File System,변경불가 파일시스템) 즉 보존기간 동안 데이터를
@@ -175,7 +179,11 @@ export default function WormProducts() {
                         <br />
                         스토리지
                     </h1>
-                    <article className={styles.solTxt} style={{ flexDirection: 'column' }}>
+                    <article
+                        className={styles.solTxt}
+                        style={{ flexDirection: 'column' }}
+                        data-aos="fade-up"
+                    >
                         <p>
                             산업 표준 19인치 랙-마운트 타입의 고성능 대용량 NAS 스토리지 시스템으로
                             주요 파트의 이중화를 통해 뛰어난 신뢰성을 제공하며 고성능 하드웨어 및

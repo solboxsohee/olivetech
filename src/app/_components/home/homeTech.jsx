@@ -2,10 +2,64 @@ import React from 'react';
 import HomeTitle from '@/app/_components/home/homeTitle';
 import { Flex } from 'antd';
 import styles from '@/app/_styles/home.module.css';
+// 카운팅 애니메이션 구현
+import { useState, useEffect, useRef } from 'react';
+
+const Counter = ({ start, end, duration }) => {
+    const [count, setCount] = useState(start);
+    const startTimeRef = useRef(null);
+
+    const updateCount = () => {
+        const currentTime = Date.now();
+        const elapsedTime = currentTime - startTimeRef.current;
+        const progress = Math.min(elapsedTime / duration, 1); // 1이 최대값
+
+        const currentCount = Math.floor(start + (end - start) * progress);
+        setCount(currentCount);
+
+        if (progress < 1) {
+            requestAnimationFrame(updateCount);
+        }
+    };
+
+    useEffect(() => {
+        if (start !== end) {
+            startTimeRef.current = Date.now();
+            requestAnimationFrame(updateCount);
+        }
+    }, [start, end, duration]);
+
+    return <p className={styles.countNum}>{count}</p>;
+};
 
 export default function HomeTech() {
+    const [inView, setInView] = useState(false);
+    const observerRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(([entry]) => {
+            if (entry.isIntersecting) {
+                setInView(true);
+            } else {
+                setInView(false); // 스크롤 시 다시 상태 초기화
+            }
+        });
+
+        if (observerRef.current) {
+            observer.observe(observerRef.current);
+        }
+
+        return () => {
+            if (observerRef.current) {
+                observer.unobserve(observerRef.current);
+            }
+        };
+    }, []);
+
+    useEffect(() => {}, [inView]);
+
     return (
-        <article className={styles.homeTech}>
+        <article className={styles.homeTech} ref={observerRef}>
             <div className="main-content">
                 <HomeTitle
                     engTitle="Technology"
@@ -15,25 +69,25 @@ export default function HomeTech() {
                 <Flex wrap justify="space-between" style={{ marginTop: 60 }}>
                     <section>
                         <Flex vertical align="center" justify="center">
-                            <p className={styles.countNum}>500+</p>
+                            {inView && <Counter start={0} end={500000} duration={3000} />}
                             <p className={styles.countName}>WORM스토리지 도입 고객</p>
                         </Flex>
                     </section>
                     <section>
                         <Flex vertical align="center" justify="center">
-                            <p className={styles.countNum}>10</p>
+                            {inView && <Counter start={0} end={10} duration={3000} />}
                             <p className={styles.countName}>기술 관련 특허</p>
                         </Flex>
                     </section>
                     <section>
                         <Flex vertical align="center" justify="center">
-                            <p className={styles.countNum}>5천만+</p>
+                            {inView && <Counter start={0} end={50000000} duration={3000} />}
                             <p className={styles.countName}>마이데이터 월 처리 건</p>
                         </Flex>
                     </section>
                     <section>
                         <Flex vertical align="center" justify="center">
-                            <p className={styles.countNum}>95%</p>
+                            {inView && <Counter start={0} end={95} duration={1000} />}
                             <p className={styles.countName}>마이데이터 시장 점유율</p>
                         </Flex>
                     </section>

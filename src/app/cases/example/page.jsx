@@ -20,24 +20,24 @@ export default function Example() {
             />
             <SecondMenu menuName={'고객 사례'} links={secondMenuLinks} />
             <main className="main-content">
-                <Flex justify="space-between" wrap>
+                <Flex justify="space-between" wrap data-aos="fade-up">
                     <CardNews
                         imgSrc="/cases/mydata.jpg"
                         cardHead="[행정안전부] 공공마이데이터 유통 시스템 구축·운영 "
                         cardDate="2024-01-01"
-                        cardLink="example/adm"
+                        cardLink="/cases/example/adm"
                     />
                     <CardNews
                         imgSrc="/cases/pohang.jpg"
                         cardHead="[포항테크노파크] 2024년 제조업 AI 융합 기반 조성"
                         cardDate="2024-01-01"
-                        cardLink="example/pohang"
+                        cardLink="/cases/example/pohang"
                     />
                     <CardNews
                         imgSrc="/cases/gyeongsang.png"
                         cardHead="[경상남도] 공공마이데이터 활용서비스 확대, 지원"
                         cardDate="2024-01-01"
-                        cardLink="example/gyeongsang"
+                        cardLink="/cases/example/gyeongsang"
                     />
                 </Flex>
             </main>

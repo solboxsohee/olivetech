@@ -22,7 +22,7 @@ export default function PdsClient() {
             <main className="main-content">
                 <article className={styles.logoCategory}>
                     <h1 className={styles.logoHead}>정부기관</h1>
-                    <section className={styles.logoWrap}>
+                    <section className={styles.logoWrap} data-aos="fade-up">
                         <div className={styles.logoBox}>
                             <Image
                                 src={'/customer/secupds/gov (1).jpg'}
@@ -147,7 +147,7 @@ export default function PdsClient() {
                 </article>
                 <article className={styles.logoCategory}>
                     <h1 className={styles.logoHead}>공공기관</h1>
-                    <section className={styles.logoWrap}>
+                    <section className={styles.logoWrap} data-aos="fade-up">
                         <div className={styles.logoBox}>
                             <Image
                                 src={'/customer/secupds/pub (1).jpg'}
@@ -232,7 +232,7 @@ export default function PdsClient() {
                 </article>
                 <article className={styles.logoCategory}>
                     <h1 className={styles.logoHead}>금융</h1>
-                    <section className={styles.logoWrap}>
+                    <section className={styles.logoWrap} data-aos="fade-up">
                         <div className={styles.logoBox}>
                             <Image
                                 src={'/customer/secupds/koreg.jpg'}

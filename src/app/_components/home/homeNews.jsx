@@ -6,7 +6,7 @@ import CardThree from '@/app/_components/cards/cardThree';
 export default function HomeNews() {
     return (
         <section className="main-content">
-            <Flex gap={30}>
+            <Flex gap={30} data-aos="fade-up">
                 <CardThree
                     imgSrc="/news/koreg.png"
                     cardHead="신용보증재단중앙회, 공공마이데이터 서비스에 SecuPDS 솔루션 도입"

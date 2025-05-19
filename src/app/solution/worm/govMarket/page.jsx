@@ -23,7 +23,7 @@ export default function GovMarket() {
             <main className="main-content">
                 <section className={styles.solLayout}>
                     <h1 className={styles.solTitle}>조달등록제품</h1>
-                    <article className={styles.solTxt}>
+                    <article className={styles.solTxt} data-aos="fade-up">
                         <p>
                             올리브텍은 물리적 WORM 스토리지와 가상 WORM 스토리지 제품을 조달청
                             사이트를 통해 구매할 수 있게 제공합니다.
@@ -35,13 +35,9 @@ export default function GovMarket() {
                     </article>
                 </section>
                 <section className={styles.solLayout}>
-                    <h1 className={styles.solTitle}>
-                        물리적 WORM
-                        <br />
-                        스토리지
-                    </h1>
+                    <h1 className={styles.solTitle}>물리적 WORM</h1>
                     <div className={styles.solTxt} style={{ flexWrap: 'wrap' }}>
-                        <article style={{ width: '45%' }}>
+                        <article style={{ width: '45%' }} data-aos="fade-up">
                             <h2 className={styles.smallTitle}>
                                 모델명 F5200-12WP, 24TB/96GB(캐시)
                             </h2>
@@ -72,7 +68,7 @@ export default function GovMarket() {
                                 </table>
                             </div>
                         </article>
-                        <article style={{ width: '45%' }}>
+                        <article style={{ width: '45%' }} data-aos="fade-up">
                             <h2 className={styles.smallTitle}>
                                 모델명 F5200-12WP, 96TB/96GB(캐시)
                             </h2>
@@ -101,7 +97,7 @@ export default function GovMarket() {
                                 </tbody>
                             </table>
                         </article>
-                        <p style={{ marginTop: 20 }}>
+                        <p style={{ marginTop: 20 }} data-aos="fade-up">
                             <a href="https://shop.g2b.go.kr/" target="_blank">
                                 조달청 나라장터 종합쇼핑몰(https://shop.g2b.go.kr/)
                             </a>
@@ -110,8 +106,12 @@ export default function GovMarket() {
                     </div>
                 </section>
                 <section className={styles.solLayout}>
-                    <h1 className={styles.solTitle}>가상 WORM 스토리지</h1>
-                    <article className={styles.solTxt} style={{ flexDirection: 'column' }}>
+                    <h1 className={styles.solTitle}>가상 WORM</h1>
+                    <article
+                        className={styles.solTxt}
+                        style={{ flexDirection: 'column' }}
+                        data-aos="fade-up"
+                    >
                         <h2 className={styles.smallTitle}>모델명 Splentec Storage v4.1, 10TB</h2>
                         <table className={styles.modelSpec}>
                             <tbody>

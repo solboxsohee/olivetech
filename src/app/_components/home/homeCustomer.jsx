@@ -5,7 +5,7 @@ import styles from '@/app/_styles/customer.module.css';
 
 export default function HomeCustomer() {
     return (
-        <article className="main-content">
+        <article className="main-content" data-aos="fade-up">
             <Carousel autoplay={{ dotDuration: true }} autoplaySpeed={5000}>
                 <article>
                     <section className={styles.mainLogoWrap}>

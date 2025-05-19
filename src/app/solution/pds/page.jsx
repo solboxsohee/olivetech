@@ -23,7 +23,11 @@ export default function PDS() {
             <main className="main-content">
                 <section className={styles.solLayout}>
                     <h1 className={styles.solTitle}>공공마이데이터 서비스</h1>
-                    <article className={styles.solTxt}>
+                    <article
+                        className={styles.solTxt}
+                        data-aos="fade-up"
+                        style={{ flexDirection: 'column' }}
+                    >
                         <p>
                             공공 ,민간 기관의 서비스를 이용할 때 개인이나 기업이 제출해야 하는
                             민원서류 중 해당 업무에 필요한 정보만 선별하여 (예: 주민등록등본에서
@@ -34,11 +38,22 @@ export default function PDS() {
                             처리할 수 있게 되며, 정보주체는 업무에 필요한 민원서류를 별도로 제출할
                             필요가 없어지게 된다.
                         </p>
+                        <div style={{ paddingInline: 80 }}>
+                            <img src="/systemflow/mydata.svg" alt="mydata" width={'100%'} />
+                        </div>
                     </article>
                 </section>
                 <section className={styles.solLayout}>
-                    <h1 className={styles.solTitle}>본인정보 보안저장소</h1>
-                    <article className={styles.solTxt}>
+                    <h1 className={styles.solTitle}>
+                        본인정보
+                        <br />
+                        보안저장소
+                    </h1>
+                    <article
+                        className={styles.solTxt}
+                        data-aos="fade-up"
+                        style={{ flexDirection: 'column' }}
+                    >
                         <p>
                             이용기관이 정보주체의 동의 하에 발급 받은 묶음정보 및 이용내역은
                             본인정보 보안저장소(PDS, Personal Data Store)에 저장 관리하도록
@@ -48,6 +63,9 @@ export default function PDS() {
                             하나인 경상남도의 지원사업신청에 적용된 공공마이데이터 서비스 연계
                             시스템과 PDS 구성 사례입니다.
                         </p>
+                        <div style={{ paddingTop: 45 }}>
+                            <img src="/systemflow/pds.svg" alt="pds" width={'100%'} />
+                        </div>
                     </article>
                 </section>
             </main>

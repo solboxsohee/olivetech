@@ -22,7 +22,7 @@ export default function Client() {
             <main className="main-content">
                 <article className={styles.logoCategory}>
                     <h1 className={styles.logoHead}>정부기관</h1>
-                    <section className={styles.logoWrap}>
+                    <section className={styles.logoWrap} data-aos="fade-up">
                         <div className={styles.logoBox}>
                             <Image
                                 src={'/customer/govern/govern (1).jpg'}
@@ -187,7 +187,7 @@ export default function Client() {
                 </article>
                 <article className={styles.logoCategory}>
                     <h1 className={styles.logoHead}>공공기관</h1>
-                    <section className={styles.logoWrap}>
+                    <section className={styles.logoWrap} data-aos="fade-up">
                         <div className={styles.logoBox}>
                             <Image
                                 src={'/customer/public/customer (1).jpg'}
@@ -560,7 +560,7 @@ export default function Client() {
                 </article>
                 <article className={styles.logoCategory}>
                     <h1 className={styles.logoHead}>지자체</h1>
-                    <section className={styles.logoWrap}>
+                    <section className={styles.logoWrap} data-aos="fade-up">
                         <div className={styles.logoBox}>
                             <Image
                                 src={'/customer/local/local (1).jpg'}
@@ -717,7 +717,7 @@ export default function Client() {
                 </article>
                 <article className={styles.logoCategory}>
                     <h1 className={styles.logoHead}>교육청</h1>
-                    <section className={styles.logoWrap}>
+                    <section className={styles.logoWrap} data-aos="fade-up">
                         <div className={styles.logoBox}>
                             <Image
                                 src={'/customer/oe/oe (1).jpg'}
@@ -858,7 +858,7 @@ export default function Client() {
                 </article>
                 <article className={styles.logoCategory}>
                     <h1 className={styles.logoHead}>학교 · 의료</h1>
-                    <section className={styles.logoWrap}>
+                    <section className={styles.logoWrap} data-aos="fade-up">
                         <div className={styles.logoBox}>
                             <Image
                                 src={'/customer/medi/medi (1).jpg'}
@@ -967,7 +967,7 @@ export default function Client() {
                 </article>
                 <article className={styles.logoCategory}>
                     <h1 className={styles.logoHead}>제조 · 유통</h1>
-                    <section className={styles.logoWrap}>
+                    <section className={styles.logoWrap} data-aos="fade-up">
                         <div className={styles.logoBox}>
                             <Image
                                 src={'/customer/manufac/manufac (1).jpg'}

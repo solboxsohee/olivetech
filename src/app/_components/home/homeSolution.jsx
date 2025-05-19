@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function HomeSolution() {
     return (
-        <article className="main-content">
+        <article className="main-content" data-aos="fade-up">
             <div className={styles.solutionWrap}>
                 <Link href="/solution/worm/">
                     <section className={styles.wormCard} style={{ width: '100%' }}>

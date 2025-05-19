@@ -10,7 +10,7 @@ export default function HomeCase() {
     return (
         <article className="main-content">
             <Link href="/cases/example/adm">
-                <section className={styles.caseStudy}>
+                <section className={styles.caseStudy} data-aos="fade-up">
                     <div className={styles.caseImgWrap}>
                         <Image src={Mydata} alt="cases" fill style={{ objectFit: 'cover' }} />
                     </div>
@@ -35,7 +35,7 @@ export default function HomeCase() {
                 </section>
             </Link>
             <Link href="/cases/example/pohang">
-                <section className={styles.caseStudy}>
+                <section className={styles.caseStudy} data-aos="fade-up">
                     <div className={styles.caseImgWrap} style={{ order: 2 }}>
                         <Image src={Pohang} alt="cases" fill style={{ objectFit: 'cover' }} />
                     </div>
