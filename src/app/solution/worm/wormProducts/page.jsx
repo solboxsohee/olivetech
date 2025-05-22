@@ -1,8 +1,63 @@
 import React from 'react';
+import { Tabs } from 'antd';
 import styles from '@/app/_styles/solutions.module.css';
 import PageTitle from '@/app/_components/pageLayout/pageTitle';
 import PageImg from '@/app/_components/pageLayout/pageImg';
 import SecondMenu from '@/app/_components/layouts/secondMenu';
+import DF420012WE from '@/app/_components/mobileTable/DF420012WE';
+import DF420024WE from '@/app/_components/mobileTable/DF420024WE';
+import DF420036WE from '@/app/_components/mobileTable/DF420036WE';
+import DF4200WG from '@/app/_components/mobileTable/DF4200WG';
+import SN420012WE from '@/app/_components/mobileTable/SN420012WE';
+import SN420024WE from '@/app/_components/mobileTable/SN420024WE';
+import SN420036WE from '@/app/_components/mobileTable/SN420036WE';
+import NS4200NG from '@/app/_components/mobileTable/NS4200NG';
+
+const items = [
+    {
+        key: '1',
+        label: 'DF4200-12WE',
+        children: <DF420012WE />,
+    },
+    {
+        key: '2',
+        label: 'DF4200-24WE',
+        children: <DF420024WE />,
+    },
+    {
+        key: '3',
+        label: 'DF4200-36WE',
+        children: <DF420036WE />,
+    },
+    {
+        key: '4',
+        label: 'DF4200-WG',
+        children: <DF4200WG />,
+    },
+];
+
+const itemsSN = [
+    {
+        key: '1',
+        label: 'SN4200-12WE',
+        children: <SN420012WE />,
+    },
+    {
+        key: '2',
+        label: 'SN4200-24WE',
+        children: <SN420024WE />,
+    },
+    {
+        key: '3',
+        label: 'SN4200-36WE',
+        children: <SN420036WE />,
+    },
+    {
+        key: '4',
+        label: 'NS4200-NG',
+        children: <NS4200NG />,
+    },
+];
 
 export default function WormProducts() {
     const secondMenuLinks = [
@@ -21,11 +76,7 @@ export default function WormProducts() {
             <PageImg imgSrc={'wormImg'} />
             <main className="main-content">
                 <section className={styles.solLayout}>
-                    <h1 className={styles.solTitle}>
-                        물리적 WORM
-                        <br />
-                        스토리지
-                    </h1>
+                    <h1 className={styles.solTitle}>물리적 WORM</h1>
                     <article
                         className={styles.solTxt}
                         style={{ flexDirection: 'column' }}
@@ -133,10 +184,11 @@ export default function WormProducts() {
                                 </tbody>
                             </table>
                         </div>
+                        <Tabs defaultActiveKey="1" items={items} className={styles.mobileTable} />
                     </article>
                 </section>
                 <section className={styles.solLayout}>
-                    <h1 className={styles.solTitle}>가상 WORM 스토리지</h1>
+                    <h1 className={styles.solTitle}>가상 WORM</h1>
                     <article
                         className={styles.solTxt}
                         data-aos="fade-up"
@@ -158,11 +210,7 @@ export default function WormProducts() {
                     </article>
                 </section>
                 <section className={styles.solLayout}>
-                    <h1 className={styles.solTitle}>
-                        IFS Linux
-                        <br />
-                        솔루션
-                    </h1>
+                    <h1 className={styles.solTitle}>IFS Linux</h1>
                     <article
                         className={styles.solTxt}
                         data-aos="fade-up"
@@ -303,6 +351,7 @@ export default function WormProducts() {
                                 </tbody>
                             </table>
                         </div>
+                        <Tabs defaultActiveKey="1" items={itemsSN} className={styles.mobileTable} />
                     </article>
                 </section>
             </main>

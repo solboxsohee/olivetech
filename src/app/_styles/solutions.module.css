@@ -29,11 +29,36 @@
     content: '· ';
 }
 
+/* 콘텐츠 레이아웃 반응형 */
+@media all and (max-width: 1100px) {
+    .solLayout {
+        flex-direction: column;
+    }
+    .solTitle {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .solTxt {
+        width: 100%;
+    }
+}
+
 .solTable {
     width: 100%;
     text-align: center;
     margin-top: 20px;
     font-size: 16px;
+}
+.mobileTable {
+    display: none;
+}
+@media all and (max-width: 479px) {
+    .solTableWrap {
+        display: none;
+    }
+    .mobileTable {
+        display: block;
+    }
 }
 
 .solTable th {

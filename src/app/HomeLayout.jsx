@@ -19,6 +19,12 @@ const configProviderTheme = {
         Form: {
             labelFontSize: 18,
         },
+        tabs: {
+            itemHoverColor: '#00A0E9',
+        },
+        Collapse: {
+            headerBg: 'transparent',
+        },
     },
 };
 

@@ -5,16 +5,17 @@ import PageTitle from '@/app/_components/pageLayout/pageTitle';
 import FaqWormStorage from '@/app/_components/faq/faqWormStorage';
 import SecuPds from '@/app/_components/faq/secuPds';
 import SecondMenu from '@/app/_components/layouts/secondMenu';
+import '@/app/_styles/faq.css';
 
 const items = [
     {
         key: '1',
-        label: <p>WORM Storage</p>,
+        label: <span className="tabText">WORM Storage</span>,
         children: <FaqWormStorage />,
     },
     {
         key: '2',
-        label: <p>SecuPDS</p>,
+        label: <span className="tabText">SecuPDS</span>,
         children: <SecuPds />,
     },
 ];
@@ -37,7 +38,7 @@ export default function Faq() {
             />
             <SecondMenu menuName={'고객 지원'} links={secondMenuLinks} />
             <main className="main-content">
-                <Tabs defaultActiveKey="1" items={items} size="large" />
+                <Tabs defaultActiveKey="1" items={items} size="large" tabPosition={'left'} />
             </main>
         </>
     );

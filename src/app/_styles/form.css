@@ -36,3 +36,27 @@
         display: none;
     }
 }
+.captchaBox {
+    width: 180px;
+    height: auto;
+    border: 1px solid #e8e7e7;
+    border-radius: 6px;
+    padding: 6px;
+}
+.captchaSection {
+    display: flex;
+}
+.mg-6 {
+    margin-top: 60px;
+}
+.buttonWrap {
+    gap: 8px;
+}
+@media all and (max-width: 650px) {
+    .buttonWrap {
+        width: 100%;
+    }
+    .buttonWrap button {
+        width: 50%;
+    }
+}

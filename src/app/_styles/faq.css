@@ -1,0 +1,19 @@
+.tabText {
+    font-size: 28px;
+}
+/* 화살표를 뒤로 */
+.ant-collapse-header {
+    flex-direction: row-reverse !important;
+}
+.answer {
+    display: flex;
+    margin-top: 10px;
+    padding: 10px 0;
+    margin-right: 20px;
+}
+.answer p {
+    font-size: 17px;
+}
+.ant-collapse-content {
+    background-color: #f8f8fa !important;
+}

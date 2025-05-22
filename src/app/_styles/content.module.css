@@ -76,7 +76,7 @@
 .blue {
     color: #00a0e9;
 }
-@media all and (max-width: 800px) {
+@media all and (max-width: 1100px) {
     .subContent {
         flex-direction: column;
     }

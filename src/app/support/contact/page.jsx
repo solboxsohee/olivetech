@@ -106,18 +106,26 @@ export default function ContactForm() {
                                 <br /> • 회사는 해당 정보를 개인정보의 수집 및 이용 목적의 달성을
                                 위해 필요한 기간 동안 보유합니다.
                             </article>
-                            <Checkbox>개인정보 수집 및 이용에 동의합니다.</Checkbox>
+                            <Checkbox>
+                                <p>
+                                    개인정보 수집 및 이용에 동의합니다.{' '}
+                                    <span style={{ color: '#E51D25' }}>(필수)</span>
+                                </p>
+                            </Checkbox>
                         </Flex>
                     </Form.Item>
                     <Form.Item
-                        label=""
+                        label="자동입력방지문자"
                         name="blockRobot"
                         rules={[{ required: true, message: '스팸방지 문자를 입력해주세요.' }]}
+                        className="formItemStyle"
                     >
-                        <div>스팸방지 문자 넣기</div>
+                        <section className="captchaSection">
+                            <img src="/form/captcha.gif" alt="captcha" width={310} />
+                        </section>
                     </Form.Item>
-                    <Form.Item name="button">
-                        <Flex gap={8}>
+                    <Form.Item name="button" className="mg-6">
+                        <Flex className="buttonWrap">
                             <Button type="primary">등록</Button>
                             <Button>취소</Button>
                         </Flex>

@@ -22,11 +22,7 @@ export default function Worm() {
             <PageImg imgSrc={'wormImg'} />
             <main className="main-content">
                 <section className={styles.solLayout}>
-                    <h1 className={styles.solTitle}>
-                        WORM
-                        <br />
-                        스토리지
-                    </h1>
+                    <h1 className={styles.solTitle}>WORM 스토리지</h1>
                     <div
                         className={styles.solTxt}
                         data-aos="fade-up"
