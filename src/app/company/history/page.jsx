@@ -23,7 +23,7 @@ export default function History() {
             <SecondMenu menuName={'올리브텍 소개'} links={secondMenuLinks} border={false} />
             <PageImg imgSrc={'historyImg'} />
             <main className="main-content">
-                <Flex align="center" className={styles.contentDivide}>
+                <Flex align="center" className={styles.contentDiv}>
                     <section className={styles.contentTitle}>
                         <h2 className={styles.blue}>2025</h2>
                     </section>
@@ -33,7 +33,7 @@ export default function History() {
                         </ul>
                     </section>
                 </Flex>
-                <Flex className={styles.contentDivide}>
+                <Flex className={styles.contentDiv}>
                     <section className={styles.contentTitle}>
                         <h2 className={styles.blue}>2024</h2>
                     </section>
@@ -51,7 +51,7 @@ export default function History() {
                         </ul>
                     </section>
                 </Flex>
-                <Flex className={styles.contentDivide}>
+                <Flex className={styles.contentDiv}>
                     <section className={styles.contentTitle}>
                         <h2 className={styles.blue}>2023</h2>
                     </section>
@@ -67,7 +67,7 @@ export default function History() {
                         </ul>
                     </section>
                 </Flex>
-                <Flex className={styles.contentDivide}>
+                <Flex className={styles.contentDiv}>
                     <section className={styles.contentTitle}>
                         <h2 className={styles.blue}>2022</h2>
                     </section>
@@ -91,7 +91,7 @@ export default function History() {
                         </ul>
                     </section>
                 </Flex>
-                <Flex className={styles.contentDivide}>
+                <Flex className={styles.contentDiv}>
                     <section className={styles.contentTitle}>
                         <h2 className={styles.blue}>2021</h2>
                     </section>
@@ -109,7 +109,7 @@ export default function History() {
                         </ul>
                     </section>
                 </Flex>
-                <Flex className={styles.contentDivide}>
+                <Flex className={styles.contentDiv}>
                     <section className={styles.contentTitle}>
                         <h2 className={styles.blue}>2020</h2>
                     </section>
@@ -124,7 +124,7 @@ export default function History() {
                         </ul>
                     </section>
                 </Flex>
-                <Flex className={styles.contentDivide}>
+                <Flex className={styles.contentDiv}>
                     <section className={styles.contentTitle}>
                         <h2 className={styles.blue}>2019</h2>
                     </section>
@@ -140,7 +140,7 @@ export default function History() {
                         </ul>
                     </section>
                 </Flex>
-                <Flex align="center" className={styles.contentDivide}>
+                <Flex align="center" className={styles.contentDiv}>
                     <section className={styles.contentTitle}>
                         <h2 className={styles.blue}>2018</h2>
                     </section>
@@ -153,7 +153,7 @@ export default function History() {
                         </ul>
                     </section>
                 </Flex>
-                <Flex className={styles.contentDivide}>
+                <Flex className={styles.contentDiv}>
                     <section className={styles.contentTitle}>
                         <h2 className={styles.blue}>2017</h2>
                     </section>
@@ -166,7 +166,7 @@ export default function History() {
                         </ul>
                     </section>
                 </Flex>
-                <Flex className={styles.contentDivide}>
+                <Flex className={styles.contentDiv}>
                     <section className={styles.contentTitle}>
                         <h2 className={styles.blue}>2016</h2>
                     </section>
@@ -179,7 +179,7 @@ export default function History() {
                         </ul>
                     </section>
                 </Flex>
-                <Flex className={styles.contentDivide}>
+                <Flex className={styles.contentDiv}>
                     <section className={styles.contentTitle}>
                         <h2 className={styles.blue}>2015</h2>
                     </section>
@@ -190,7 +190,7 @@ export default function History() {
                         </ul>
                     </section>
                 </Flex>
-                <Flex align="center" className={styles.contentDivide}>
+                <Flex align="center" className={styles.contentDiv}>
                     <section className={styles.contentTitle}>
                         <h2 className={styles.blue}>2014</h2>
                     </section>
@@ -200,7 +200,7 @@ export default function History() {
                         </ul>
                     </section>
                 </Flex>
-                <Flex className={styles.contentDivide}>
+                <Flex className={styles.contentDiv}>
                     <section className={styles.contentTitle}>
                         <h2 className={styles.blue}>2013</h2>
                     </section>

@@ -25,5 +25,64 @@
     height: 115px;
     overflow: hidden;
     border-radius: 3px;
-    border: 1px solid #ddd;
+    border: 1px solid #f0f0f0;
+}
+.homeLogoBox {
+    position: relative;
+    width: 230px;
+    height: 115px;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #f0f0f0;
+}
+@media all and (max-width: 1375px) {
+    .homeLogoBox {
+        width: 19%;
+    }
+    .mainLogoWrap {
+        height: 380px;
+        overflow-y: hidden;
+    }
+}
+@media all and (max-width: 1105px) {
+    .homeLogoBox {
+        width: 24%;
+        height: 110px;
+    }
+    .mainLogoWrap {
+        height: 360px;
+        overflow-y: hidden;
+    }
+}
+@media all and (max-width: 1036px) {
+    .homeLogoBox {
+        width: 23%;
+        height: 110px;
+    }
+}
+@media all and (max-width: 735px) {
+    .homeLogoBox {
+        width: 23%;
+        height: 75px;
+    }
+    .mainLogoWrap {
+        height: 250px;
+        overflow-y: hidden;
+    }
+}
+@media all and (max-width: 600px) {
+    .homeLogoBox {
+        width: 31%;
+        height: 75px;
+    }
+}
+@media all and (max-width: 480px) {
+    .homeLogoBox {
+        width: 48%;
+        height: 100px;
+    }
+    .mainLogoWrap {
+        height: 330px;
+        overflow-y: hidden;
+    }
 }

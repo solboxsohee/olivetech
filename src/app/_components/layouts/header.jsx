@@ -13,8 +13,8 @@ const { Header } = Layout;
 export default function MainHeader() {
     return (
         <>
-            <Header className={styles.header}>
-                <Flex justify="space-between" align="center" style={{ width: '100%' }}>
+            <Header className={styles.header} style={{ padding: 0 }}>
+                <Flex justify="space-between" align="center" style={{ width: '88%' }}>
                     <Link href="/">
                         <Image src={LogoBlue} alt="logo" width={187} />
                     </Link>

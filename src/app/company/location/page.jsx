@@ -35,10 +35,11 @@ export default function Location() {
                 <article className={styles.contentDivide}>
                     <h2>주소</h2>
                     <p>
-                        경기도 성남시 수정구 창업로 42, 530, 531호 판교 제2테크노밸리(시흥동,
-                        경기기업성장센터)
+                        경기도 성남시 수정구 창업로 42, 530, 531호{' '}
+                        <br className={styles.mobileBR} /> 판교 제2테크노밸리
+                        <span className={styles.mobileNone}>(시흥동, 경기기업성장센터)</span>
                     </p>
-                    <Flex gap={15}>
+                    <Flex className={styles.teleFaxEmail}>
                         <p>T. 031-726-4217</p>
                         <p>F. 031-726-4217</p>
                         <p>E. sales@olivetech.co.kr</p>
@@ -49,31 +50,31 @@ export default function Location() {
                         <h3 className={styles.contentTitle}>
                             <b>버스를 이용하는 경우</b>
                         </h3>
-                        <p>
-                            일반버스 : 55, 231, 310, 315, 382, 73-2, 87 <br />
-                            광역버스 : 3100
-                        </p>
+                        <span>
+                            <p>일반버스 : 55, 231, 310, 315, 382, 73-2, 87</p>
+                            <p>광역버스 : 3100</p>
+                        </span>
                     </Flex>
                     <Flex className={styles.smDivide}>
                         <h3 className={styles.contentTitle}>
                             <b>지하철을 이용하는 경우</b>
                         </h3>
-                        <p>
-                            신분당선 : 판교역 2번출구
-                            <br />
-                            분당선 : 야탑역 이용
-                        </p>
+                        <span>
+                            <p>신분당선 : 판교역 2번출구</p>
+                            <p>분당선 : 야탑역 이용</p>
+                        </span>
                     </Flex>
                     <Flex className={styles.smDivide}>
                         <h3 className={styles.contentTitle}>
                             <b>자가용을 이용하는 경우</b>
                         </h3>
-                        <p>
-                            경부고속도로 진출 후 여수 교차로에서 서울, 판교 방향 시흥 사거리에서
-                            기업지원허브 방면으로 우회전
-                            <br />
-                            기업성장센터 지하주차장 주차
-                        </p>
+                        <span>
+                            <p>
+                                경부고속도로 진출 후 여수 교차로에서 서울, 판교 방향 시흥 사거리에서
+                                기업지원허브 방면으로 우회전
+                            </p>
+                            <p>기업성장센터 지하주차장 주차</p>
+                        </span>
                     </Flex>
                 </article>
             </main>

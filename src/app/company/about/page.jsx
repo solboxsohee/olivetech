@@ -91,7 +91,7 @@ export default function About() {
                     <section>
                         <table className={styles.infoTable}>
                             <tbody>
-                                <tr>
+                                <tr className={styles.tableFlex}>
                                     <td className={styles.tableTitle}>
                                         <b>회사명</b>
                                     </td>
@@ -101,43 +101,43 @@ export default function About() {
                                     </td>
                                     <td className={styles.tableContents}>임장식</td>
                                 </tr>
-                                <tr>
-                                    <td>
+                                <tr className={styles.tableFlex}>
+                                    <td className={styles.tableTitle}>
                                         <b>설립일</b>
                                     </td>
-                                    <td>2013년 4월 1일</td>
-                                    <td>
+                                    <td className={styles.tableContents}>2013년 4월 1일</td>
+                                    <td className={styles.tableTitle}>
                                         <b>사업자번호</b>
                                     </td>
-                                    <td>144-81-11596</td>
+                                    <td className={styles.tableContents}>144-81-11596</td>
                                 </tr>
-                                <tr>
-                                    <td>
+                                <tr className={styles.tableFlex}>
+                                    <td className={styles.tableTitle}>
                                         <b>주요 사업</b>
                                     </td>
-                                    <td>컴퓨터용 보안 스토리지</td>
-                                    <td>
+                                    <td className={styles.tableContents}>컴퓨터용 보안 스토리지</td>
+                                    <td className={styles.tableTitle}>
                                         <b>주소</b>
                                     </td>
-                                    <td>
+                                    <td className={styles.tableContents}>
                                         경기도 성남시 수정구 창업로 42, 530호 (경기기업성장센터)
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>
+                                <tr className={styles.tableFlex}>
+                                    <td className={styles.tableTitle}>
                                         <b>홈페이지</b>
                                     </td>
-                                    <td>www.olivetech.co.kr</td>
-                                    <td>
+                                    <td className={styles.tableContents}>www.olivetech.co.kr</td>
+                                    <td className={styles.tableTitle}>
                                         <b>대표번호</b>
                                     </td>
-                                    <td>031-726-4217</td>
+                                    <td className={styles.tableContents}>031-726-4217</td>
                                 </tr>
                             </tbody>
                         </table>
                     </section>
                 </Flex>
-                <Flex className={styles.subContent}>
+                <Flex className={styles.subContentButtons}>
                     <section className={styles.halfFlex}>
                         <h2>회사소개서</h2>
                         <Button type="primary">회사 소개서 다운로드</Button>

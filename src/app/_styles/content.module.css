@@ -20,8 +20,6 @@
 .infoTable td {
     padding: 25px 0;
     font-size: 18px;
-}
-.infoTable td {
     border-bottom: 1px solid #e8e7e7;
 }
 .tableTitle {
@@ -30,7 +28,23 @@
 .tableContents {
     width: 37%;
 }
+@media all and (max-width: 800px) {
+    .tableFlex {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .tableTitle {
+        width: 30%;
+    }
+    .tableContents {
+        width: 70%;
+    }
+}
 .subContent {
+    margin: 120px 0;
+}
+.subContentButtons {
     margin: 120px 0;
 }
 .contentDivide {
@@ -39,10 +53,77 @@
 .smDivide {
     margin-bottom: 10px;
 }
+@media all and (max-width: 1100px) {
+    .smDivide {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .smDivide p::before {
+        content: '·';
+        margin-right: 8px;
+    }
+    .contentTitle b {
+        margin-bottom: 10px;
+    }
+    .smDivide span {
+        margin-top: 5px;
+    }
+}
 .halfFlex {
     width: 50%;
 }
 
 .blue {
     color: #00a0e9;
+}
+@media all and (max-width: 800px) {
+    .subContent {
+        flex-direction: column;
+    }
+    .contentTitle {
+        width: 100%;
+    }
+    .contentParagraph {
+        width: 100%;
+    }
+}
+@media all and (max-width: 700px) {
+    .subContentButtons {
+        flex-direction: column;
+    }
+    .halfFlex {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}
+@media all and (max-width: 765px) {
+    .mobileNone {
+        display: none;
+    }
+}
+.teleFaxEmail {
+    gap: 15px;
+}
+@media all and (max-width: 580px) {
+    .teleFaxEmail {
+        flex-direction: column;
+        gap: 0;
+        margin-top: 5px;
+    }
+}
+.mobileBR {
+    display: none;
+}
+@media all and (max-width: 544px) {
+    .mobileBR {
+        display: block;
+    }
+}
+.contentDiv {
+    margin: 60px 0;
+}
+@media all and (max-width: 800px) {
+    .contentDiv {
+        flex-direction: column;
+    }
 }

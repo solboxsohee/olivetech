@@ -19,3 +19,20 @@
 .ant-form-item .ant-form-item-label > label::after {
     margin-inline-end: 0 !important;
 }
+
+@media all and (max-width: 987px) {
+    .formItemStyle .ant-row {
+        flex-flow: nowrap !important;
+    }
+}
+@media all and (max-width: 962px) {
+    .formItemStyle .ant-row {
+        flex-direction: column !important;
+    }
+    .ant-form-horizontal .ant-form-item-label {
+        flex: 0 !important;
+    }
+    .mobileBR {
+        display: none;
+    }
+}

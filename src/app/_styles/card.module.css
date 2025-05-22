@@ -4,9 +4,19 @@
     margin-bottom: 60px;
     cursor: pointer;
 }
+@media all and (max-width: 650px) {
+    .cardNews {
+        width: 100%;
+    }
+}
 .cardThree {
     width: 32%;
     height: auto;
+}
+@media all and (max-width: 1100px) {
+    .cardThree {
+        width: 49%;
+    }
 }
 .imgWrap {
     position: relative;
@@ -15,12 +25,53 @@
     border-radius: 6px;
     overflow: hidden;
 }
+@media all and (max-width: 1300px) {
+    .imgWrap {
+        height: 260px;
+    }
+}
+@media all and (max-width: 1080px) {
+    .imgWrap {
+        height: 200px;
+    }
+}
+@media all and (max-width: 830px) {
+    .imgWrap {
+        height: 160px;
+    }
+}
+@media all and (max-width: 650px) {
+    .imgWrap {
+        height: 270px;
+    }
+}
+@media all and (max-width: 650px) {
+    .imgWrap {
+        height: 200px;
+    }
+}
+@media all and (max-width: 650px) {
+    .imgWrap {
+        height: 180px;
+    }
+}
+
 .imgThreeWrap {
     position: relative;
     width: 100%;
     height: 200px;
     border-radius: 6px;
     overflow: hidden;
+}
+@media all and (max-width: 1280px) {
+    .imgThreeWrap {
+        height: 180px;
+    }
+}
+@media all and (max-width: 1100px) {
+    .imgThreeWrap {
+        height: 235px;
+    }
 }
 /* 카드 호버 시 효과 */
 .imgWrap::before {
@@ -56,4 +107,17 @@
     font-size: 16px;
     color: #777;
     margin-top: 5px;
+}
+
+/* 반응형 코드 수정 */
+.cardFlex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media all and (max-width: 1100px) {
+    .cardFlex {
+        height: 274px;
+        overflow: hidden;
+    }
 }

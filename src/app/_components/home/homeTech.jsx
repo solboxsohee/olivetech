@@ -67,27 +67,38 @@ export default function HomeTech() {
                     isWhite={true}
                 />
                 <Flex wrap justify="space-between" style={{ marginTop: 60 }}>
-                    <section>
+                    <section className="count_one">
                         <Flex vertical align="center" justify="center">
-                            {inView && <Counter start={0} end={500000} duration={3000} />}
+                            <h1 className={styles.inline}>
+                                {inView && <Counter start={0} end={500} duration={1000} />}
+                                <span className={styles.count_txt}>+</span>
+                            </h1>
                             <p className={styles.countName}>WORM스토리지 도입 고객</p>
                         </Flex>
                     </section>
-                    <section>
+                    <section className="count_two">
                         <Flex vertical align="center" justify="center">
-                            {inView && <Counter start={0} end={10} duration={3000} />}
+                            <h1 className={styles.inline}>
+                                {inView && <Counter start={0} end={10} duration={1000} />}
+                            </h1>
                             <p className={styles.countName}>기술 관련 특허</p>
                         </Flex>
                     </section>
-                    <section>
+                    <section className="count_three">
                         <Flex vertical align="center" justify="center">
-                            {inView && <Counter start={0} end={50000000} duration={3000} />}
+                            <h1 className={styles.inline}>
+                                {inView && <Counter start={0} end={5} duration={1000} />}
+                                <span className={styles.count_txt}>천만+</span>
+                            </h1>
                             <p className={styles.countName}>마이데이터 월 처리 건</p>
                         </Flex>
                     </section>
-                    <section>
+                    <section className={styles.count_four}>
                         <Flex vertical align="center" justify="center">
-                            {inView && <Counter start={0} end={95} duration={1000} />}
+                            <h1 className={styles.inline}>
+                                {inView && <Counter start={0} end={95} duration={1000} />}
+                                <span className={styles.count_txt}>%</span>
+                            </h1>
                             <p className={styles.countName}>마이데이터 시장 점유율</p>
                         </Flex>
                     </section>

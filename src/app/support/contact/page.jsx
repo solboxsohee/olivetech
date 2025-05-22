@@ -24,11 +24,7 @@ export default function ContactForm() {
             <SecondMenu menuName={'고객 지원'} links={secondMenuLinks} border={false} />
             <PageImg imgSrc={'contactImg'} />
             <main className="main-content">
-                <h2>
-                    궁금한 문의사항을
-                    <br />
-                    남겨주세요
-                </h2>
+                <h2>궁금한 문의사항을 남겨주세요</h2>
                 <Form
                     labelCol={{ flex: '200px' }}
                     labelAlign="left"
@@ -41,6 +37,7 @@ export default function ContactForm() {
                         label="이름"
                         name="name"
                         rules={[{ required: true, message: '이름 입력은 필수입니다.' }]}
+                        className="formItemStyle"
                     >
                         <Input placeholder="이름을 입력하세요" />
                     </Form.Item>
@@ -48,6 +45,7 @@ export default function ContactForm() {
                         label="연락처"
                         name="phone"
                         rules={[{ required: true, message: '연락처 입력은 필수입니다.' }]}
+                        className="formItemStyle"
                     >
                         <Input placeholder="연락처를 입력하세요" />
                     </Form.Item>
@@ -55,19 +53,30 @@ export default function ContactForm() {
                         label="이메일"
                         name="email"
                         rules={[{ required: true, message: '이메일 입력은 필수입니다.' }]}
+                        className="formItemStyle"
                     >
                         <Input placeholder="이메일을 입력하세요" />
                     </Form.Item>
-                    <Form.Item label="회사명" name="email" rules={[{ required: false }]}>
+                    <Form.Item
+                        label="회사명"
+                        name="email"
+                        rules={[{ required: false }]}
+                        className="formItemStyle"
+                    >
                         <Input placeholder="회사 이름을 입력하세요" />
                     </Form.Item>
-                    <Form.Item label="문의 내용" name="email" rules={[{ required: false }]}>
+                    <Form.Item
+                        label="문의 내용"
+                        name="email"
+                        rules={[{ required: false }]}
+                        className="formItemStyle"
+                    >
                         <Input placeholder="문의 내용을 입력하세요." />
                     </Form.Item>
                     <Form.Item
                         label={
                             <span style={{ lineHeight: 1.5 }}>
-                                개인정보 수집 및<br />
+                                개인정보 수집 및<br className="mobileBR" />
                                 이용에 관한 동의
                             </span>
                         }
@@ -75,6 +84,7 @@ export default function ContactForm() {
                         rules={[
                             { required: true, message: '개인정보 수집 및 이용에 동의해주세요.' },
                         ]}
+                        className="formItemStyle"
                     >
                         <Flex vertical>
                             <article className="infoBox">

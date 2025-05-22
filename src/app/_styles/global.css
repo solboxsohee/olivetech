@@ -42,7 +42,7 @@ table {
 .main-content {
     width: 88%;
     max-width: 1200px;
-    margin: 60px auto;
+    margin: 80px auto 120px auto;
 }
 .main-content h2 {
     font-size: 34px;
@@ -66,10 +66,11 @@ table {
 
 .second-menu-box {
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
 }
 .second-menu-wrap {
-    width: 1200px;
+    max-width: 1200px;
+    width: 88%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

@@ -147,8 +147,30 @@
 }
 .cardTitle {
     font-size: 26px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .cardTxt {
     font-size: 18px;
+}
+
+/* 카운트 css 추가  */
+.count_one {
+    width: 210px;
+}
+.count_two {
+    width: 200px;
+}
+.count_three {
+    width: 210px;
+}
+.count_four {
+    width: 190px;
+}
+.inline {
+    display: flex;
+    align-items: center;
+}
+.count_txt {
+    color: #fff;
+    font-size: 60px;
 }

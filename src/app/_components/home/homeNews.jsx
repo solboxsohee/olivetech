@@ -1,12 +1,12 @@
 'use client';
 import React from 'react';
-import { Flex } from 'antd';
 import CardThree from '@/app/_components/cards/cardThree';
+import styles from '@/app/_styles/card.module.css';
 
 export default function HomeNews() {
     return (
         <section className="main-content">
-            <Flex gap={30} data-aos="fade-up">
+            <div className={styles.cardFlex} data-aos="fade-up">
                 <CardThree
                     imgSrc="/news/koreg.png"
                     cardHead="신용보증재단중앙회, 공공마이데이터 서비스에 SecuPDS 솔루션 도입"
@@ -22,7 +22,7 @@ export default function HomeNews() {
                     cardHead="자산관리공사(캠코), 채무조정신청 서비스에 SecuPDS 솔루션 도입"
                     cardLink="company/news/kamco"
                 />
-            </Flex>
+            </div>
         </section>
     );
 }
